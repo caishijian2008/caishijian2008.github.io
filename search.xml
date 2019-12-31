@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2019/12/31/hello-world/"/>
+      <url>/2019/12/31/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一些CSS3效果</title>
+      <link href="/2019/03/13/%E4%B8%80%E4%BA%9BCSS3%E6%95%88%E6%9E%9C/"/>
+      <url>/2019/03/13/%E4%B8%80%E4%BA%9BCSS3%E6%95%88%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<p>(1) Neon Lights Effect(霓虹灯效果)：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.neonText</span> <span class="selector-tag">h2</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">text-shadow</span>:<span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="number">#CCCCCC</span>, <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">#CCCCCC</span>, <span class="number">0</span> <span class="number">0</span> <span class="number">15px</span> <span class="number">#CCCCCC</span>, <span class="number">0</span> <span class="number">0</span> <span class="number">20px</span> <span class="number">#095816</span>, <span class="number">0</span> <span class="number">0</span> <span class="number">25px</span> <span class="number">#095816</span>, <span class="number">0</span> <span class="number">0</span> <span class="number">30px</span> <span class="number">#095816</span>, <span class="number">0</span> <span class="number">0</span> <span class="number">50px</span> <span class="number">#095816</span>, <span class="number">0</span> <span class="number">0</span> <span class="number">80px</span> <span class="number">#095816</span>, <span class="number">0</span> <span class="number">0</span> <span class="number">100px</span> <span class="number">#095816</span>, <span class="number">0</span> <span class="number">0</span> <span class="number">150px</span> <span class="number">#095816</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>(2) 3D Text(3D立体效果):<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.text3D</span> <span class="selector-tag">h2</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">text-shadow</span>: <span class="number">0</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ccc</span>, <span class="number">0</span> <span class="number">2px</span> <span class="number">0</span> <span class="number">#c9c9c9</span>, <span class="number">0</span> <span class="number">3px</span> <span class="number">0</span> <span class="number">#bbb</span>, <span class="number">0</span> <span class="number">4px</span> <span class="number">0</span> <span class="number">#b9b9b9</span>, <span class="number">0</span> <span class="number">5px</span> <span class="number">0</span> <span class="number">#aaa</span>, <span class="number">0</span> <span class="number">6px</span> <span class="number">1px</span> <span class="built_in">rgba</span>(0,0,0,0.1), <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="built_in">rgba</span>(0,0,0,0.1),<span class="number">0</span> <span class="number">1px</span> <span class="number">3px</span> <span class="built_in">rgba</span>(0,0,0,0.3),<span class="number">0</span> <span class="number">3px</span> <span class="number">5px</span> <span class="built_in">rgba</span>(0,0,0,0.2),<span class="number">0</span> <span class="number">5px</span> <span class="number">10px</span> <span class="built_in">rgba</span>(0,0,0,0.25);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>(3) 文字投影特效 乳白阴影文字效果<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.main_home</span> <span class="selector-class">.h1</span> &#123;</span><br><span class="line">    <span class="attribute">text-transform</span>: uppercase;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#f1ebe5</span>;</span><br><span class="line">    <span class="attribute">text-shadow</span>: <span class="number">0</span> <span class="number">8px</span> <span class="number">9px</span> <span class="number">#c4b59d</span>, <span class="number">0px</span> -<span class="number">2px</span> <span class="number">1px</span> <span class="number">#fff</span>;</span><br><span class="line">    <span class="attribute">font-weight</span>: bold;</span><br><span class="line">    <span class="attribute">text-align</span>: center;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(to bottom, #ece4d9 0%,#e9dfd1 100%);</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">20px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>(4) 柳枝摆动效果+js（全屏）<br>HTML部分：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>HTML5摆动的文字特效 类似柳枝摆动DEMO演示<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"css/style.css"</span> <span class="attr">media</span>=<span class="string">"screen"</span> <span class="attr">type</span>=<span class="string">"text/css"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"container"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  </span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"js/index.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></p><p>CSS部分：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">html</span>&#123;</span><br><span class="line">    <span class="attribute">background</span>:<span class="number">#000</span>;</span><br><span class="line">    <span class="attribute">overflow</span>:hidden;</span><br><span class="line">    <span class="attribute">color</span>:<span class="number">#fff</span>;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.container</span>&#123;<span class="attribute">width</span>:<span class="number">100%</span>;<span class="attribute">height</span>:<span class="number">100%</span>;&#125;</span><br><span class="line"><span class="selector-class">.letter</span>&#123;</span><br><span class="line">    <span class="attribute">position</span>:absolute;</span><br><span class="line">    <span class="attribute">font-size</span>:<span class="number">2em</span>;</span><br><span class="line">    <span class="attribute">display</span>:inline-block;</span><br><span class="line">    <span class="attribute">text-align</span>:center;</span><br><span class="line">    <span class="attribute">width</span>:.<span class="number">7em</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>JS部分：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> windVal = <span class="number">0</span>,</span><br><span class="line">    blowVal = <span class="number">0</span>,</span><br><span class="line">    cycle = <span class="number">80</span>,</span><br><span class="line">    cycleAmt = <span class="number">0.03</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> container = <span class="built_in">document</span>.querySelectorAll(<span class="string">'.container'</span>)[<span class="number">0</span>];</span><br><span class="line">    container.style.width = <span class="built_in">window</span>.innerWidth + <span class="string">'px'</span>;</span><br><span class="line">    container.style.height = <span class="number">528</span> + <span class="string">'px'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> Segment = <span class="function"><span class="keyword">function</span> (<span class="params">settings</span>) </span>&#123;</span><br><span class="line">    settings = settings || &#123;&#125;;</span><br><span class="line">    <span class="keyword">this</span>.angle = settings.angle || <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">this</span>.cycle = settings.cycle;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">this</span>.x = settings.x || <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">this</span>.y = settings.y || <span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">this</span>.element = <span class="built_in">document</span>.createElement(<span class="string">'span'</span>);</span><br><span class="line">    <span class="keyword">this</span>.element.classList.add(<span class="string">'letter'</span>);</span><br><span class="line">    <span class="keyword">this</span>.element.textContent = settings.letter;</span><br><span class="line">    <span class="keyword">this</span>.element.style.color = colorCycle(<span class="keyword">this</span>.cycle);</span><br><span class="line">    container.appendChild(<span class="keyword">this</span>.element);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">this</span>.width = <span class="built_in">parseInt</span>(<span class="built_in">window</span>.getComputedStyle(<span class="keyword">this</span>.element,<span class="literal">null</span>).getPropertyValue(<span class="string">'width'</span>), <span class="number">10</span>) + <span class="number">5</span>;</span><br><span class="line">    <span class="keyword">this</span>.height = <span class="built_in">parseInt</span>(<span class="built_in">window</span>.getComputedStyle(<span class="keyword">this</span>.element,<span class="literal">null</span>).getPropertyValue(<span class="string">'height'</span>),<span class="number">10</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Segment.prototype.getJoint = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> x = <span class="keyword">this</span>.x + <span class="built_in">Math</span>.cos(<span class="keyword">this</span>.angle) * <span class="keyword">this</span>.width,</span><br><span class="line">        y = <span class="keyword">this</span>.y + <span class="built_in">Math</span>.sin(<span class="keyword">this</span>.angle) * <span class="keyword">this</span>.width;</span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">        x: x,</span><br><span class="line">        y: y</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Segment.prototype.render = <span class="function"><span class="keyword">function</span> (<span class="params">el</span>) </span>&#123;</span><br><span class="line">    el.style.left = <span class="keyword">this</span>.x +<span class="string">'px'</span>;</span><br><span class="line">    el.style.top = <span class="keyword">this</span>.y + <span class="string">'px'</span>;</span><br><span class="line">    el.style.webkitTransform = <span class="string">"rotate("</span> + <span class="keyword">this</span>.angle + <span class="string">"deg)"</span>;</span><br><span class="line">    <span class="comment">//this.element.style.color = colorCycle(this.cycle++);</span></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> WordString = <span class="function"><span class="keyword">function</span> (<span class="params">settings</span>) </span>&#123;</span><br><span class="line">    settings = settings || &#123;&#125;;</span><br><span class="line">    <span class="keyword">this</span>.x = settings.x || <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">this</span>.y = settings.y || <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">this</span>.target = &#123;<span class="attr">x</span> : <span class="number">0</span>, <span class="attr">y</span> : <span class="number">0</span>&#125;,</span><br><span class="line">    <span class="keyword">this</span>.text = settings.text.split(<span class="string">''</span>);</span><br><span class="line">    <span class="keyword">this</span>.text.reverse().join(<span class="string">''</span>);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">this</span>.segNum = settings.text.length;</span><br><span class="line">    <span class="keyword">this</span>.angle = (<span class="built_in">Math</span>.random() * <span class="number">360</span> - <span class="number">180</span>) * <span class="built_in">Math</span>.PI / <span class="number">180</span>;</span><br><span class="line">    <span class="keyword">this</span>.segments = [];</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> s = <span class="number">0</span>; s &lt; <span class="keyword">this</span>.segNum<span class="number">-1</span>; s++) &#123;</span><br><span class="line">        <span class="keyword">this</span>.segments.push(<span class="keyword">new</span> Segment(&#123;</span><br><span class="line">            letter: <span class="keyword">this</span>.text[s],</span><br><span class="line">            angle: (<span class="built_in">Math</span>.random() * <span class="number">360</span> - <span class="number">180</span>) * <span class="built_in">Math</span>.PI / <span class="number">180</span>,</span><br><span class="line">            cycle : cycle+=cycleAmt</span><br><span class="line">        &#125;));</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">this</span>.segments.push(<span class="keyword">new</span> Segment(&#123;</span><br><span class="line">        x: <span class="keyword">this</span>.x,</span><br><span class="line">        y: <span class="keyword">this</span>.y,</span><br><span class="line">        angle: <span class="keyword">this</span>.angle,</span><br><span class="line">        letter: <span class="keyword">this</span>.text[<span class="keyword">this</span>.segNum<span class="number">-1</span>],</span><br><span class="line">        cycle : cycle+=cycleAmt</span><br><span class="line">    &#125;));</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">WordString.prototype.track = <span class="function"><span class="keyword">function</span> (<span class="params">segment, x, y</span>) </span>&#123;    </span><br><span class="line">    <span class="keyword">var</span> dx = x - segment.x,</span><br><span class="line">        dy = y - segment.y;</span><br><span class="line">    </span><br><span class="line">    segment.angle = <span class="built_in">Math</span>.atan2(dy, dx);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">var</span> w = segment.getJoint().x - segment.x,</span><br><span class="line">        h = segment.getJoint().y - segment.y;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">          x: x - w,</span><br><span class="line">          y: y - h</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">WordString.prototype.position = <span class="function"><span class="keyword">function</span>(<span class="params">segmentA, segmentB</span>)</span>&#123;</span><br><span class="line">    segmentA.x = segmentB.getJoint().x;</span><br><span class="line">    segmentA.y = segmentB.getJoint().y;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">WordString.prototype.update = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> curX = <span class="keyword">this</span>.segments[<span class="keyword">this</span>.segments.length<span class="number">-1</span>].x + windVal,</span><br><span class="line">        reachTarget = &#123; <span class="attr">x</span> : curX, <span class="attr">y</span> : <span class="built_in">window</span>.innerHeight+<span class="number">500</span>&#125;;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">this</span>.target = <span class="keyword">this</span>.track(<span class="keyword">this</span>.segments[<span class="number">0</span>], reachTarget.x, reachTarget.y);</span><br><span class="line">    <span class="keyword">var</span> track = <span class="keyword">this</span>.track,</span><br><span class="line">        target = <span class="keyword">this</span>.target,</span><br><span class="line">        position = <span class="keyword">this</span>.position;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">this</span>.segments.forEach(<span class="function"><span class="keyword">function</span> (<span class="params">e, i, seg</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (i !== <span class="number">0</span>) &#123;</span><br><span class="line">            target = track(e, target.x, target.y);</span><br><span class="line">            position(seg[i - <span class="number">1</span>], seg[i]);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">WordString.prototype.render = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.segments.forEach(<span class="function"><span class="keyword">function</span> (<span class="params">e</span>) </span>&#123;</span><br><span class="line">        e.render(e.element);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">WordString.prototype.destroy = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.segments.forEach(<span class="function"><span class="keyword">function</span> (<span class="params">e, i, arr</span>) </span>&#123;</span><br><span class="line">        e.element.remove();</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> wordChains = [],</span><br><span class="line">    chainCount = <span class="number">20</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> w = <span class="number">0</span>; w &lt; chainCount; w++)&#123;</span><br><span class="line">    <span class="keyword">var</span> word = createRandomString(~~(<span class="built_in">Math</span>.random()*<span class="built_in">window</span>.innerHeight/<span class="number">35</span>)+<span class="number">5</span>);</span><br><span class="line">    wordChains.push(<span class="keyword">new</span> WordString(&#123;</span><br><span class="line">        text: word,</span><br><span class="line">        x : (<span class="built_in">window</span>.innerWidth/chainCount) * w,</span><br><span class="line">        y : <span class="number">0</span></span><br><span class="line">    &#125;));</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">update</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">var</span> w = <span class="number">0</span>; w &lt; chainCount; w++)&#123;</span><br><span class="line">        wordChains[w].update();</span><br><span class="line">        wordChains[w].render();</span><br><span class="line">    &#125;</span><br><span class="line">    windVal=<span class="built_in">Math</span>.sin(blowVal)*<span class="number">75</span>;</span><br><span class="line">    blowVal+=<span class="number">0.1</span>;</span><br><span class="line">    requestAnimationFrame(update);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">update();</span><br><span class="line"></span><br><span class="line"><span class="comment">// dem utils</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">createRandomString</span>(<span class="params">wlen</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> chars = <span class="string">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"</span>,</span><br><span class="line">        word = <span class="string">""</span>;</span><br><span class="line">    <span class="keyword">while</span>(wlen--)&#123;</span><br><span class="line">        word+=chars[~~(<span class="built_in">Math</span>.random()*chars.length)];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> word;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">colorCycle</span>(<span class="params">cycle, bright, light</span>) </span>&#123;</span><br><span class="line">    bright = bright || <span class="number">255</span>;</span><br><span class="line">    light = light || <span class="number">0</span>;</span><br><span class="line">    cycle *= <span class="number">.1</span>;</span><br><span class="line">    <span class="keyword">var</span> r = ~~ (<span class="built_in">Math</span>.sin(<span class="number">.3</span> * cycle + <span class="number">0</span>) * bright + light),</span><br><span class="line">        g = ~~ (<span class="built_in">Math</span>.sin(<span class="number">.3</span> * cycle + <span class="number">2</span>) * bright + light),</span><br><span class="line">        b = ~~ (<span class="built_in">Math</span>.sin(<span class="number">.3</span> * cycle + <span class="number">4</span>) * bright + light);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="string">'rgb('</span> + <span class="built_in">Math</span>.min(r, <span class="number">255</span>) + <span class="string">','</span> + <span class="built_in">Math</span>.min(g, <span class="number">255</span>) + <span class="string">','</span> + <span class="built_in">Math</span>.min(b, <span class="number">255</span>) + <span class="string">')'</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>来源于：<br><a href="https://www.w3cplus.com/css3/text-effect" target="_blank" rel="noopener">https://www.w3cplus.com/css3/text-effect</a><br><a href="https://www.cnblogs.com/i7758/p/4346222.html" target="_blank" rel="noopener">https://www.cnblogs.com/i7758/p/4346222.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CSS/CSS3 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CSS/CSS3 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>null，undefined的区别</title>
+      <link href="/2019/03/13/null%EF%BC%8Cundefined%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+      <url>/2019/03/13/null%EF%BC%8Cundefined%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
+      
+        <content type="html"><![CDATA[<p>null是一个表示“空”的对象，转为数值时为0；<br>undefined是一个表示”此处无定义”的原始值，转为数值时为NaN。<br>如果 JavaScript 预期某个位置应该是布尔值，会将该位置上现有的值自动转为布尔值。<br>转换规则是除了下面六个值被转为false，其他值都视为true：<br>undefined<br>null<br>false<br>0<br>NaN<br>“”或’’（空字符串）</p><p>来源于：<a href="http://teadocs.cn/docs/javascript/types/null-undefined-boolean.html" target="_blank" rel="noopener">http://teadocs.cn/docs/javascript/types/null-undefined-boolean.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用cmd命令删除文件夹下所有文件</title>
+      <link href="/2019/03/13/%E4%BD%BF%E7%94%A8cmd%E5%91%BD%E4%BB%A4%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6/"/>
+      <url>/2019/03/13/%E4%BD%BF%E7%94%A8cmd%E5%91%BD%E4%BB%A4%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<p>rmdir  删除整个目录<br>好比说我要删除 222 这个目录下的所有目录和档案，这语法就是：<br>rmdir /s/q 222<br>其中：<br>/s 是代表删除所有子目录跟其中的档案。<br>/q 是不要它在删除档案或目录时，不再问我 Yes or No 的动作。<br>/f 是强制删除。<br>要删除的目录前也可以指定路径，如：<br>rmdir /s/q d:\123\abc<br>这意思是告诉计算机，把磁盘驱动器 D 的123资料夹里面的abc资料夹中的所有东西全部删除，同时也不要再问我是否要删除。</p><p>删除文件：del 文件<br>删除目录：rd 目录</p><p>Linux删除文件夹：<br>强制删除目录：rm -fr install</p><p>来源于：<a href="https://blog.csdn.net/liji_digital/article/details/79166679" target="_blank" rel="noopener">https://blog.csdn.net/liji_digital/article/details/79166679</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux查看文件大小的几种方法</title>
+      <link href="/2019/03/11/Linux%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/"/>
+      <url>/2019/03/11/Linux%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>Linux查看文件大小的几种方法</p><p>stat命令：<br>stat filepath</p><p>wc命令：<br>wc -c filename 参数-c表示统计字符, 因为一个字符一个字节, 所以这样得到字节数</p><p>du命令：<br>du -b filepath 参数-b表示以字节计数<br>或者<br>du -h filepath 直接得出人好识别的文件大小</p><p>ls命令：<br>ls -l filepath 第五列为文件字节数<br>ls -h filepath h表示human, 加-h参数得到人好读的文件大小</p><p>来源于：<a href="https://blog.csdn.net/xiongyangg/article/details/54809810" target="_blank" rel="noopener">https://blog.csdn.net/xiongyangg/article/details/54809810</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux下的tar压缩解压缩命令详解</title>
+      <link href="/2019/03/11/Linux%E4%B8%8B%E7%9A%84tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/"/>
+      <url>/2019/03/11/Linux%E4%B8%8B%E7%9A%84tar%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</url>
+      
+        <content type="html"><![CDATA[<p>Linux下的tar压缩解压缩命令详解</p><p>tar</p><p>-c: 建立压缩档案<br>-x：解压<br>-t：查看内容<br>-r：向压缩归档文件末尾追加文件<br>-u：更新原压缩包中的文件</p><p>这五个是独立的命令，压缩解压都要用到其中一个，可以和别的命令连用但只能用其中一个。下面的参数是根据需要在压缩或解压档案时可选的。<br>-z：有gzip属性的<br>-j：有bz2属性的<br>-Z：有compress属性的<br>-v：显示所有过程<br>-O：将文件解开到标准输出</p><p>下面的参数-f是必须的<br>-f: 使用档案名字，切记，这个参数是最后一个参数，后面只能接档案名。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">tar -cf all.tar *.jpg</span><br><span class="line">这条命令是将所有.jpg的文件打成一个名为all.tar的包。-c是表示产生新的包，-f指定包的文件名。</span><br><span class="line"></span><br><span class="line">tar -rf all.tar *.gif</span><br><span class="line">这条命令是将所有.gif的文件增加到all.tar的包里面去。-r是表示增加文件的意思。</span><br><span class="line"></span><br><span class="line">tar -uf all.tar logo.gif</span><br><span class="line">这条命令是更新原来tar包all.tar中logo.gif文件，-u是表示更新文件的意思。</span><br><span class="line"></span><br><span class="line">tar -tf all.tar</span><br><span class="line">这条命令是列出all.tar包中所有文件，-t是列出文件的意思</span><br><span class="line"></span><br><span class="line">tar -xf all.tar</span><br><span class="line">这条命令是解出all.tar包中所有文件，-t是解开的意思</span><br></pre></td></tr></table></figure></p><p>zip<br>与gzip相比：1）可以压缩目录； 2）可以保留原文件；<br>选项： -r(recursive)    递归压缩目录内的所有文件和目录<br>命令举例：<br>压缩和解压文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost tmp]<span class="comment"># zip boduo.zip boduo</span></span><br><span class="line">[root@localhost tmp]<span class="comment"># unzip boduo.zip</span></span><br></pre></td></tr></table></figure></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line">压缩：</span><br><span class="line">tar -cvf jpg.tar *.jpg //将目录里所有jpg文件打包成tar.jpg </span><br><span class="line"></span><br><span class="line">tar -czf jpg.tar.gz *.jpg   //将目录里所有jpg文件打包成jpg.tar后，并且将其用gzip压缩，生成一个gzip压缩过的包，命名为jpg.tar.gz</span><br><span class="line"></span><br><span class="line">tar -cjf jpg.tar.bz2 *.jpg //将目录里所有jpg文件打包成jpg.tar后，并且将其用bzip2压缩，生成一个bzip2压缩过的包，命名为jpg.tar.bz2</span><br><span class="line"></span><br><span class="line">tar -cZf jpg.tar.Z *.jpg   //将目录里所有jpg文件打包成jpg.tar后，并且将其用compress压缩，生成一个umcompress压缩过的包，命名为jpg.tar.Z</span><br><span class="line"></span><br><span class="line">rar a jpg.rar *.jpg //rar格式的压缩，需要先下载rar <span class="keyword">for</span> linux</span><br><span class="line"></span><br><span class="line">zip jpg.zip *.jpg //zip格式的压缩，需要先下载zip <span class="keyword">for</span> linux</span><br><span class="line"></span><br><span class="line">解压：</span><br><span class="line">tar -xvf file.tar //解压 tar包</span><br><span class="line"></span><br><span class="line">tar -xzvf file.tar.gz //解压tar.gz</span><br><span class="line"></span><br><span class="line">tar -xjvf file.tar.bz2   //解压 tar.bz2</span><br><span class="line"></span><br><span class="line">tar -xZvf file.tar.Z   //解压tar.Z</span><br><span class="line"></span><br><span class="line">unrar e file.rar //解压rar</span><br><span class="line"></span><br><span class="line">unzip file.zip //解压zip</span><br><span class="line"></span><br><span class="line">总结</span><br><span class="line">1、*.tar 用 tar -xvf 解压</span><br><span class="line"></span><br><span class="line">2、*.gz 用 gzip -d或者gunzip 解压</span><br><span class="line"></span><br><span class="line">3、*.tar.gz和*.tgz 用 tar -xzf 解压</span><br><span class="line"></span><br><span class="line">4、*.bz2 用 bzip2 -d或者用bunzip2 解压</span><br><span class="line"></span><br><span class="line">5、*.tar.bz2用tar -xjf 解压</span><br><span class="line"></span><br><span class="line">6、*.Z 用 uncompress 解压</span><br><span class="line"></span><br><span class="line">7、*.tar.Z 用tar -xZf 解压</span><br><span class="line"></span><br><span class="line">8、*.rar 用 unrar e解压</span><br><span class="line"></span><br><span class="line">9、*.zip 用 unzip 解压</span><br></pre></td></tr></table></figure><p>来源：<a href="https://blog.csdn.net/xiongyangg/article/details/54809810" target="_blank" rel="noopener">https://blog.csdn.net/xiongyangg/article/details/54809810</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> tar </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一些常用网址</title>
+      <link href="/2019/03/11/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80/"/>
+      <url>/2019/03/11/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80/</url>
+      
+        <content type="html"><![CDATA[<p>1.图片占位：<br><a href="http://placehold.it/450x180/F92E2A" target="_blank" rel="noopener">http://placehold.it/450x180/F92E2A</a></p><p>2.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 常用网址 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 常用网址 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>更改了centos7的python版本为python3后出现防火墙无法启动或重启</title>
+      <link href="/2019/03/11/%E6%9B%B4%E6%94%B9%E4%BA%86centos7%E7%9A%84python%E7%89%88%E6%9C%AC%E4%B8%BApython3%E5%90%8E%E5%87%BA%E7%8E%B0%E9%98%B2%E7%81%AB%E5%A2%99%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E6%88%96%E9%87%8D%E5%90%AF/"/>
+      <url>/2019/03/11/%E6%9B%B4%E6%94%B9%E4%BA%86centos7%E7%9A%84python%E7%89%88%E6%9C%AC%E4%B8%BApython3%E5%90%8E%E5%87%BA%E7%8E%B0%E9%98%B2%E7%81%AB%E5%A2%99%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E6%88%96%E9%87%8D%E5%90%AF/</url>
+      
+        <content type="html"><![CDATA[<p>更改了centos7的python版本为python3后出现防火墙无法启动或重启，报错如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost ~]<span class="comment"># systemctl restart firewalld.service</span></span><br><span class="line">Job <span class="keyword">for</span> firewalld.service failed because the control process exited with error code. See <span class="string">"systemctl status firewalld.service"</span> and <span class="string">"journalctl -xe"</span> <span class="keyword">for</span> details.</span><br><span class="line">[root@localhost ~]<span class="comment"># journalctl -xe</span></span><br><span class="line">-- Defined-By: systemd</span><br><span class="line">-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel</span><br><span class="line">--</span><br><span class="line">-- Unit firewalld.service has begun shutting down.</span><br><span class="line">8月 10 17:27:03 localhost.localdomain kernel: Ebtables v2.0 unregistered</span><br><span class="line">8月 10 17:27:03 localhost.localdomain systemd[1]: Starting firewalld - dynamic f</span><br><span class="line">-- Subject: Unit firewalld.service has begun start-up</span><br><span class="line">-- Defined-By: systemd</span><br><span class="line">-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel</span><br><span class="line">--</span><br><span class="line">-- Unit firewalld.service has begun starting up.</span><br><span class="line">8月 10 17:27:03 localhost.localdomain systemd[1]: firewalld.service: main proces</span><br><span class="line">8月 10 17:27:03 localhost.localdomain systemd[1]: Failed to start firewalld - dy</span><br><span class="line">-- Subject: Unit firewalld.service has failed</span><br><span class="line">-- Defined-By: systemd</span><br><span class="line">-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel</span><br><span class="line">--</span><br><span class="line">-- Unit firewalld.service has failed.</span><br><span class="line">--</span><br><span class="line">-- The result is failed.</span><br><span class="line">8月 10 17:27:03 localhost.localdomain systemd[1]: Unit firewalld.service entered</span><br><span class="line">8月 10 17:27:03 localhost.localdomain systemd[1]: firewalld.service failed.</span><br><span class="line">8月 10 17:27:03 localhost.localdomain polkitd[650]: Unregistered Authentication</span><br><span class="line">lines 2533-2555/2555 (END)</span><br></pre></td></tr></table></figure></p><p>解决方法：<br>使用 #vi /usr/sbin/firewalld 查看，并把最开头的 /usr/bin/python 改为 /usr/bin/python2 ，保存即可</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用phpstudy2018添加域名站点后出现500错误</title>
+      <link href="/2019/03/11/%E4%BD%BF%E7%94%A8phpstudy2018%E6%B7%BB%E5%8A%A0%E5%9F%9F%E5%90%8D%E7%AB%99%E7%82%B9%E5%90%8E%E5%87%BA%E7%8E%B0500%E9%94%99%E8%AF%AF/"/>
+      <url>/2019/03/11/%E4%BD%BF%E7%94%A8phpstudy2018%E6%B7%BB%E5%8A%A0%E5%9F%9F%E5%90%8D%E7%AB%99%E7%82%B9%E5%90%8E%E5%87%BA%E7%8E%B0500%E9%94%99%E8%AF%AF/</url>
+      
+        <content type="html"><![CDATA[<p>使用phpstudy2018添加域名站点后出现500错误，错误日志如下：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2018/08/04 11:51:41 [crit] 4768#12136: *3 GetFileAttributesEx() "D:\phpStudy\PHPTutorial\WWW    est" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: www.a.com, request: "GET / HTTP/1.1", host: "a.com"</span><br><span class="line">2018/08/04 11:51:41 [crit] 4768#12136: *4 CreateFile() "D:\phpStudy\PHPTutorial\WWW est/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: www.a.com, request: "GET /favicon.ico HTTP/1.1", host: "a.com", referrer: "http://a.com/"</span><br><span class="line">2018/08/04 11:51:43 [crit] 4768#12136: *5 GetFileAttributesEx() "D:\phpStudy\PHPTutorial\WWW    est" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: www.a.com, request: "GET / HTTP/1.1", host: "a.com"</span><br></pre></td></tr></table></figure><p>解决方法：<br>参见：<a href="https://blog.csdn.net/wt1286331074/article/details/80970157" target="_blank" rel="noopener">https://blog.csdn.net/wt1286331074/article/details/80970157</a><br>根源在于站点的【网站目录】部分！！<br>把目录“D:\phpStudy\PHPTutorial\WWW\test” 改成“D:\phpStudy\PHPTutorial\WWW/test” 即可解决！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> phpstudy </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> phpstudy </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何删除windows服务</title>
+      <link href="/2019/03/11/%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4windows%E6%9C%8D%E5%8A%A1/"/>
+      <url>/2019/03/11/%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4windows%E6%9C%8D%E5%8A%A1/</url>
+      
+        <content type="html"><![CDATA[<p>如何删除windows服务?</p><p>办法一： 用sc.exe这个Windows命令<br>开始——运行——cmd.exe，然后输入sc就可以看到了。使用办法很简单：<br>sc delete “服务名” (如果服务名中间有空格，就需要前后加引号）<br>如针对上面的： sc delete mysql<br>办法二：直接进行注册表编辑<br>打开注册表编辑器，找到下面的键值：<br>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services<br>一般服务会以相同的名字在这里显示一个主健，直接删除相关的键值便可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows服务 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何删除windows服务</title>
+      <link href="/2019/02/27/%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4windows%E6%9C%8D%E5%8A%A1/"/>
+      <url>/2019/02/27/%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4windows%E6%9C%8D%E5%8A%A1/</url>
+      
+        <content type="html"><![CDATA[<p>办法一： 用sc.exe这个Windows命令<br>开始——运行——cmd.exe，然后输入sc就可以看到了。使用办法很简单：<br>sc delete “服务名” (如果服务名中间有空格，就需要前后加引号）<br>如针对上面的： sc delete mysql</p><p>办法二：直接进行注册表编辑<br>打开注册表编辑器，找到下面的键值：<br>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services<br>一般服务会以相同的名字在这里显示一个主健，直接删除相关的键值便可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows服务 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>nginx: [emerg] invalid number of arguments in hls directive in /www/server/nginx/conf/nginx.conf:97</title>
+      <link href="/2019/02/27/nginx-emerg-invalid-number-of-arguments-in-hls-directive-in-www-server-nginx-conf-nginx-conf-97/"/>
+      <url>/2019/02/27/nginx-emerg-invalid-number-of-arguments-in-hls-directive-in-www-server-nginx-conf-nginx-conf-97/</url>
+      
+        <content type="html"><![CDATA[<p>nginx报错：<br>nginx: [emerg] invalid number of arguments in “hls” directive in /www/server/nginx/conf/nginx.conf:97</p><p>解决：<br>1.命名文件夹时一定要注意这两个雷区：中文和空格。<br>2.仔细查看添加的参数的key或者value是否有空格！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> nginx </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nginx+hls </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>搭建nginx+hls 流媒体服务器 （安装了宝塔面板的情况下）</title>
+      <link href="/2019/02/27/%E6%90%AD%E5%BB%BAnginx-hls-%E6%B5%81%E5%AA%92%E4%BD%93%E6%9C%8D%E5%8A%A1%E5%99%A8-%EF%BC%88%E5%AE%89%E8%A3%85%E4%BA%86%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%EF%BC%89/"/>
+      <url>/2019/02/27/%E6%90%AD%E5%BB%BAnginx-hls-%E6%B5%81%E5%AA%92%E4%BD%93%E6%9C%8D%E5%8A%A1%E5%99%A8-%EF%BC%88%E5%AE%89%E8%A3%85%E4%BA%86%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<p>1.检查nginx（非常重要）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nginx -V</span><br></pre></td></tr></table></figure></p><p>得到一长串configure的信息和nginx的版本，都记下备用</p><p>2.下载nginx-rtmp-module<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/arut/nginx-rtmp-module.git</span><br></pre></td></tr></table></figure></p><p>3.安装：nginx<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">wget http://nginx.org/download/nginx-1.8.1.tar.gz  </span><br><span class="line">tar -zxvf nginx-1.8.1.tar.gz  </span><br><span class="line"><span class="built_in">cd</span> nginx-1.8.1  </span><br><span class="line">./configure --prefix=/usr/<span class="built_in">local</span>/nginx  --add-module=../nginx-rtmp-module  --with-http_ssl_module    </span><br><span class="line">make &amp;&amp; make install</span><br></pre></td></tr></table></figure></p><p>问题1：编译C 问题（在nginx-1.8.1目录下）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install gcc gcc-c++</span><br></pre></td></tr></table></figure></p><p>问题2：在于已经安装好nginx，怎么重新配置第三方模块,找到一个写的很全面的博客！</p><pre><code>http://blog.csdn.net/ystyaoshengting/article/details/48436409 如何安装nginx第三方模块 --add-module</code></pre><p>　　（./configure –prefix=/你的安装目录  –add-module=/第三方模块目录 ）</p><p>问题3：make编译问题（在nginx-1.8.1目录下），</p><p>　　安装时候可能会报错没有安装openssl，需要执行命令：（安装了依赖包就不会出现这个问题啦）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install openssl openssl-devel</span><br></pre></td></tr></table></figure></p><p>参考配置：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">rtmp &#123;</span><br><span class="line">    server &#123;</span><br><span class="line">        listen 1935;</span><br><span class="line">        chunk_size 4096;</span><br><span class="line">        application vod &#123; <span class="comment">#点播</span></span><br><span class="line">            play /www/video; <span class="comment">#视频文件存放位置</span></span><br><span class="line">        &#125;</span><br><span class="line">        application live &#123; <span class="comment">#直播</span></span><br><span class="line">            live on;</span><br><span class="line">            hls on;</span><br><span class="line">            hls_path /www/wwwroot/youqwe/public/frontend/hls;</span><br><span class="line">            hls_fragment 600s; <span class="comment">#设置HLS片段长度</span></span><br><span class="line">            hls_playlist_length 10m;  <span class="comment">#设置HLS播放列表长度，这里设置的是10分钟</span></span><br><span class="line">            hls_continuous on; <span class="comment">#连续模式</span></span><br><span class="line">        &#125;    </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>在VLC等支持流媒体播放的播放器上打开流：<br>点播地址：rtmp://120.79.112.53:1935/vod/MVI_1160.mp4 （即rtmp://服务器IP:端口/vod/视频文件）<br>直播地址：rtmp://120.79.112.53:1935/live （即rtmp://服务器IP:端口/live）</p><p>检测流媒体的一个网站：<a href="https://www.wowza.com/testplayers" target="_blank" rel="noopener">https://www.wowza.com/testplayers</a></p><p>来源于：<br><a href="https://www.cnblogs.com/lipcblog/p/6824145.html" target="_blank" rel="noopener">https://www.cnblogs.com/lipcblog/p/6824145.html</a><br><a href="https://www.cnblogs.com/smallSevens/p/8191238.html" target="_blank" rel="noopener">https://www.cnblogs.com/smallSevens/p/8191238.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 流媒体服务器 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nginx+hls </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>css3 让绝对定位元素水平居中的方法</title>
+      <link href="/2019/02/27/css3-%E8%AE%A9%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%E5%85%83%E7%B4%A0%E6%B0%B4%E5%B9%B3%E5%B1%85%E4%B8%AD%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+      <url>/2019/02/27/css3-%E8%AE%A9%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%E5%85%83%E7%B4%A0%E6%B0%B4%E5%B9%B3%E5%B1%85%E4%B8%AD%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>一、绝对定位元素的居中实现<br>兼容性不错的主流用法是：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.element</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">600px</span>; <span class="attribute">height</span>: <span class="number">400px</span>;</span><br><span class="line">    <span class="attribute">position</span>: absolute; <span class="attribute">left</span>: <span class="number">50%</span>; <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">margin-top</span>: -<span class="number">200px</span>;    <span class="comment">/* 高度的一半 */</span></span><br><span class="line">    <span class="attribute">margin-left</span>: -<span class="number">300px</span>;    <span class="comment">/* 宽度的一半 */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>这种方法有一个很明显的不足，就是需要提前知道元素的尺寸。否则margin负值的调整无法精确。此时，往往要借助JS获得。<br>CSS3的兴起，使得有了更好的解决方法，就是使用transform代替margin. transform中translate偏移的百分比值是相对于自身大小的，于是，我们可以：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.element</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">600px</span>; <span class="attribute">height</span>: <span class="number">400px</span>;</span><br><span class="line">    <span class="attribute">position</span>: absolute; <span class="attribute">left</span>: <span class="number">50%</span>; <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translate</span>(-50%, -50%);    <span class="comment">/* 50%为自身尺寸的一半 */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>但兼容性不好，IE9(-ms-), IE10+以及其他现代浏览器才支持。</p><p>在微信开发中我们在处理transform的时候最好再添加一个-webkit-transform:translate(-50%, -50%); 因为X5内核的webkit版本比较低，所以需要兼容处理</p><p>二、margin:auto实现绝对定位元素的居中<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.element</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">600px</span>; <span class="attribute">height</span>: <span class="number">400px</span>;</span><br><span class="line">    <span class="attribute">position</span>: absolute; <span class="attribute">left</span>: <span class="number">0</span>; <span class="attribute">top</span>: <span class="number">0</span>; <span class="attribute">right</span>: <span class="number">0</span>; <span class="attribute">bottom</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">margin</span>: auto;    <span class="comment">/* 有了这个就自动居中了 */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>代码两个关键点：<br>上下左右均0位置定位；<br>margin: auto</p><p>来源：<br><a href="https://blog.csdn.net/qq_27682041/article/details/74001098" target="_blank" rel="noopener">https://blog.csdn.net/qq_27682041/article/details/74001098</a><br><a href="https://blog.csdn.net/freshlover/article/details/11579669" target="_blank" rel="noopener">https://blog.csdn.net/freshlover/article/details/11579669</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CSS/CSS3 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>html的宽高自适应</title>
+      <link href="/2019/02/27/html%E7%9A%84%E5%AE%BD%E9%AB%98%E8%87%AA%E9%80%82%E5%BA%94/"/>
+      <url>/2019/02/27/html%E7%9A%84%E5%AE%BD%E9%AB%98%E8%87%AA%E9%80%82%E5%BA%94/</url>
+      
+        <content type="html"><![CDATA[<p>1.宽度自适应<br>元素宽度设置为100%。（块级元素宽度默认为100%）</p><p>2.元素具备最小高度的自适应<br>min-height属性：最小高度<br>max-height:<br>min-width:<br>max-width:</p><p>3.高度自适应<br> 1.元素高度自适应窗口高度<br> 设置方法：html, body {height: 100%;}<br> 需要自适应的元素： height: 100%;</p><p> 2.自适应元素高度：<br> 父元素：height: value;<br> 需要自适应父元素高度的子元素： height: 100%;</p><p>height: auto , 是指根据块内内容自动调节高度。<br>height: 100% , 是指其相对父块高度而定义的高度，也就是按照离它最近且有定义高度的父层的高度来定义高度。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> HTML/HTML5 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>清理yum缓存和释放内存</title>
+      <link href="/2019/02/27/%E6%B8%85%E7%90%86yum%E7%BC%93%E5%AD%98%E5%92%8C%E9%87%8A%E6%94%BE%E5%86%85%E5%AD%98/"/>
+      <url>/2019/02/27/%E6%B8%85%E7%90%86yum%E7%BC%93%E5%AD%98%E5%92%8C%E9%87%8A%E6%94%BE%E5%86%85%E5%AD%98/</url>
+      
+        <content type="html"><![CDATA[<p>1.清理yum缓存<br>清理yum缓存使用yum clean 命令，yum clean 的参数有headers, packages, metadata, dbcache, plugins, expire-cache, rpmdb, all<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">yum clean headers  <span class="comment">#清理/var/cache/yum的headers</span></span><br><span class="line">yum clean packages <span class="comment">#清理/var/cache/yum下的软件包</span></span><br><span class="line">yum clean metadata</span><br><span class="line">...</span><br></pre></td></tr></table></figure></p><p>2.Linux释放内存<br>释放网页缓存(To free pagecache):<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sync; <span class="built_in">echo</span> 1 &gt; /proc/sys/vm/drop_caches</span><br></pre></td></tr></table></figure></p><p>释放目录项和索引(To free dentries and inodes):<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sync; <span class="built_in">echo</span> 2 &gt; /proc/sys/vm/drop_caches</span><br></pre></td></tr></table></figure></p><p>释放网页缓存，目录项和索引（To free pagecache, dentries and inodes）:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sync; <span class="built_in">echo</span> 3 &gt; /proc/sys/vm/drop_caches</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> yum </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>查看CentOS的版本</title>
+      <link href="/2019/02/25/%E6%9F%A5%E7%9C%8BCentOS%E7%9A%84%E7%89%88%E6%9C%AC/"/>
+      <url>/2019/02/25/%E6%9F%A5%E7%9C%8BCentOS%E7%9A%84%E7%89%88%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<p>查看CentOS的版本，显示出错或没显示的换另一条命令。<br>1.查看内核位数<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">uname -a</span><br><span class="line">cat /proc/version</span><br></pre></td></tr></table></figure></p><p>2.查看系统版本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">lsb_release -a</span><br><span class="line">cat /etc/os-release</span><br><span class="line">cat /etc/redhat-release</span><br><span class="line">rpm -q centos-release</span><br></pre></td></tr></table></figure></p><p>3.linux下查看主板内存槽与内存信息</p><p>1、查看内存槽数、那个槽位插了内存，大小是多少<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dmidecode|grep -P -A5 <span class="string">"Memory\s+Device"</span>|grep Size|grep -v Range</span><br></pre></td></tr></table></figure></p><p>2、查看最大支持内存数<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dmidecode|grep -P <span class="string">'Maximum\s+Capacity'</span></span><br></pre></td></tr></table></figure></p><p>3、查看槽位上内存的速率，没插就是unknown。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dmidecode|grep -A16 <span class="string">"Memory Device"</span>|grep <span class="string">'Speed'</span></span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centos </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>常用git命令1</title>
+      <link href="/2019/02/25/%E5%B8%B8%E7%94%A8git%E5%91%BD%E4%BB%A41/"/>
+      <url>/2019/02/25/%E5%B8%B8%E7%94%A8git%E5%91%BD%E4%BB%A41/</url>
+      
+        <content type="html"><![CDATA[<p>配置用户名和邮箱地址：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">'myqq'</span></span><br><span class="line">git config --global user.email <span class="built_in">test</span>@qq.com</span><br></pre></td></tr></table></figure></p><p>添加所有文件：git add .<br>尚未缓存的改动：git diff<br>查看已缓存的改动： git diff –cached<br>查看已缓存的与未缓存的所有改动：git diff HEAD<br>显示摘要而非整个 diff：git diff –stat<br>git mv 命令用于移动或重命名一个文件、目录、软连接。</p><p>执行 git reset HEAD 以取消之前 git add 添加的文件，但不希望包含在下一提交快照中的缓存。<br>git reset HEAD <file></file></p><p>如果删除之前修改过并且已经放到暂存区域的话，则必须要用强制删除选项 -f：<br>git rm -f <file></file></p><p>如果把文件从暂存区域移除，但仍然希望保留在当前工作目录中，换句话说，仅是从跟踪清单中删除，使用 –cached 选项即可：<br>git rm –cached <file></file></p><p>进入某个目录中，执行此语句，会删除该目录下的所有文件和子目录：<br>git rm –r * </p><p>拓扑图显示提交历史记录<br>git log –oneline –graph</p><p>删除分支命令：<br>git branch -d (branchname)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>fontawesome字体图标无法显示</title>
+      <link href="/2019/02/25/fontawesome%E5%AD%97%E4%BD%93%E5%9B%BE%E6%A0%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA/"/>
+      <url>/2019/02/25/fontawesome%E5%AD%97%E4%BD%93%E5%9B%BE%E6%A0%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA/</url>
+      
+        <content type="html"><![CDATA[<p>fontawesome字体图标无法显示，原因可能是：<br>1.放错路径了<br>2.目录名错了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> fontawesome </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>宝塔面板无法安装phalcon等php插件</title>
+      <link href="/2019/02/25/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85phalcon%E7%AD%89php%E6%8F%92%E4%BB%B6/"/>
+      <url>/2019/02/25/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85phalcon%E7%AD%89php%E6%8F%92%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<p>有时候宝塔面板会无法安装phalcon等php插件，这时就要检查服务器内存大小，小于1G内存的需要停掉其它程序（包括nginx、ftp、mysql等）再重新安装。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> php </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> phalcon </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>css 文本超出就隐藏并且显示省略号</title>
+      <link href="/2019/02/23/css-%E6%96%87%E6%9C%AC%E8%B6%85%E5%87%BA%E5%B0%B1%E9%9A%90%E8%97%8F%E5%B9%B6%E4%B8%94%E6%98%BE%E7%A4%BA%E7%9C%81%E7%95%A5%E5%8F%B7/"/>
+      <url>/2019/02/23/css-%E6%96%87%E6%9C%AC%E8%B6%85%E5%87%BA%E5%B0%B1%E9%9A%90%E8%97%8F%E5%B9%B6%E4%B8%94%E6%98%BE%E7%A4%BA%E7%9C%81%E7%95%A5%E5%8F%B7/</url>
+      
+        <content type="html"><![CDATA[<p>1.单行<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">overflow: hidden; //超出的文本隐藏</span><br><span class="line">text-overflow: ellipsis; //溢出用省略号显示</span><br><span class="line">white-space: nowrap; //溢出不换行</span><br></pre></td></tr></table></figure></p><p>2.上面是一行内容的时候，当有多行的内容时候<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">overflow</span>: <span class="selector-tag">hidden</span>;</span><br><span class="line"><span class="selector-tag">text-overflow</span>: <span class="selector-tag">ellipsis</span>;</span><br><span class="line">display: -webkit-box; //作为弹性伸缩盒子模型显示。</span><br><span class="line">-webkit-box-orient: vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列</span><br><span class="line">-webkit-line-clamp: 2; //显示的行</span><br></pre></td></tr></table></figure></p><p>3.利用伪类<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"con"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"txt"</span>&gt;</span>文本溢出显示省略号,文本溢出显示省略号,文本溢出显示省略号,文本溢出显示省略<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"t"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="css"><span class="selector-id">#txt</span>&#123;</span></span><br><span class="line"><span class="undefined">  display: inline-block;</span></span><br><span class="line"><span class="undefined">  height: 40px;</span></span><br><span class="line"><span class="undefined">  width: 250px;</span></span><br><span class="line"><span class="undefined">  line-height: 20px;</span></span><br><span class="line"><span class="undefined">  overflow: hidden;</span></span><br><span class="line"><span class="undefined">  font-size: 16px;</span></span><br><span class="line"><span class="undefined">&#125;</span></span><br><span class="line"><span class="css"><span class="selector-class">.t</span><span class="selector-pseudo">:after</span>&#123;</span></span><br><span class="line"><span class="undefined">  display: inline;</span></span><br><span class="line"><span class="undefined">  content: "...";</span></span><br><span class="line"><span class="undefined">  font-size: 16px;</span></span><br><span class="line"><span class="undefined">    </span></span><br><span class="line"><span class="undefined">&#125;</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure></p><p>4.利用绝对定位和padding;(跨浏览器解决方案，可兼容IE7)<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"con2"</span>&gt;</span>文本溢出显示省略号,文本溢出显示省略号,文本溢出显示省略号,文本溢出显示省略<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"t2"</span>&gt;</span>...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="css"><span class="selector-id">#con2</span>&#123;</span></span><br><span class="line"><span class="undefined">  position: relative;</span></span><br><span class="line"><span class="undefined">  height: 40px;</span></span><br><span class="line"><span class="undefined">  width: 250px;</span></span><br><span class="line"><span class="undefined">  line-height: 20px;</span></span><br><span class="line"><span class="undefined">  overflow: hidden;</span></span><br><span class="line"><span class="undefined">  padding-right: 12px;</span></span><br><span class="line"><span class="undefined">&#125;  </span></span><br><span class="line"><span class="css"><span class="selector-class">.t2</span>&#123;</span></span><br><span class="line"><span class="undefined">  position: absolute;</span></span><br><span class="line"><span class="undefined">  right: 0;</span></span><br><span class="line"><span class="undefined">  bottom: 0;</span></span><br><span class="line"><span class="undefined">&#125;</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure></p><p>5.其他<br>利用js插件来实现该功能，这里有俩款插件推荐，这篇主要介绍的是css方法，所以它们使用方法就不废话了。<br>Clamp.js<br>jQuery.dotdotdot</p><p>来源于：<br><a href="https://blog.csdn.net/u013868665/article/details/78893158" target="_blank" rel="noopener">https://blog.csdn.net/u013868665/article/details/78893158</a></p><p><a href="http://caibaojian.com/multiline-text-with-ellipsis.html" target="_blank" rel="noopener">http://caibaojian.com/multiline-text-with-ellipsis.html</a></p><p><a href="http://www.cnblogs.com/yzg1/p/5089534.html" target="_blank" rel="noopener">http://www.cnblogs.com/yzg1/p/5089534.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mysql 查询当前数据上一条和下一条的记录</title>
+      <link href="/2019/02/23/Mysql-%E6%9F%A5%E8%AF%A2%E5%BD%93%E5%89%8D%E6%95%B0%E6%8D%AE%E4%B8%8A%E4%B8%80%E6%9D%A1%E5%92%8C%E4%B8%8B%E4%B8%80%E6%9D%A1%E7%9A%84%E8%AE%B0%E5%BD%95/"/>
+      <url>/2019/02/23/Mysql-%E6%9F%A5%E8%AF%A2%E5%BD%93%E5%89%8D%E6%95%B0%E6%8D%AE%E4%B8%8A%E4%B8%80%E6%9D%A1%E5%92%8C%E4%B8%8B%E4%B8%80%E6%9D%A1%E7%9A%84%E8%AE%B0%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<p>方法一：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> table_a <span class="keyword">where</span> <span class="keyword">id</span> = (<span class="keyword">select</span> <span class="keyword">id</span> <span class="keyword">from</span> table_a <span class="keyword">where</span> <span class="keyword">id</span> &lt; &#123;$<span class="keyword">id</span>&#125; <span class="keyword">order</span> <span class="keyword">by</span> <span class="keyword">id</span> <span class="keyword">desc</span> <span class="keyword">limit</span> <span class="number">1</span>); </span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> table_a <span class="keyword">where</span> <span class="keyword">id</span> = (<span class="keyword">select</span> <span class="keyword">id</span> <span class="keyword">from</span> table_a <span class="keyword">where</span> <span class="keyword">id</span> &gt; &#123;$<span class="keyword">id</span>&#125; <span class="keyword">order</span> <span class="keyword">by</span> <span class="keyword">id</span> <span class="keyword">asc</span> <span class="keyword">limit</span> <span class="number">1</span>);</span><br></pre></td></tr></table></figure></p><p>方法二：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> table_a <span class="keyword">where</span> <span class="keyword">id</span> = (<span class="keyword">select</span> <span class="keyword">max</span>(<span class="keyword">id</span>) <span class="keyword">from</span> table_a <span class="keyword">where</span> <span class="keyword">id</span> &lt; &#123;$<span class="keyword">id</span>&#125;); </span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> table_a <span class="keyword">where</span> <span class="keyword">id</span> = (<span class="keyword">select</span> <span class="keyword">min</span>(<span class="keyword">id</span>) <span class="keyword">from</span> table_a <span class="keyword">where</span> <span class="keyword">id</span> &gt; &#123;$<span class="keyword">id</span>&#125;);</span><br></pre></td></tr></table></figure></p><p>方法三：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> t_news <span class="keyword">AS</span> n <span class="keyword">WHERE</span> n.<span class="string">`News_ID`</span> &lt; <span class="number">4</span> <span class="keyword">ORDER</span> <span class="keyword">BY</span> n.<span class="string">`News_ID`</span> <span class="keyword">DESC</span> <span class="keyword">LIMIT</span> <span class="number">0</span>,<span class="number">1</span>; </span><br><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> t_news <span class="keyword">AS</span> n <span class="keyword">WHERE</span> n.<span class="string">`News_ID`</span> &gt; <span class="number">4</span> <span class="keyword">ORDER</span> <span class="keyword">BY</span> n.<span class="string">`News_ID`</span> <span class="keyword">LIMIT</span> <span class="number">0</span>,<span class="number">1</span>;</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> MySQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>常用的正则表达式1</title>
+      <link href="/2019/02/23/%E5%B8%B8%E7%94%A8%E7%9A%84%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F1/"/>
+      <url>/2019/02/23/%E5%B8%B8%E7%94%A8%E7%9A%84%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F1/</url>
+      
+        <content type="html"><![CDATA[<p>匹配网址：<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">preg_match_all(<span class="string">'/(\w+):\/\/([^\:]+)(:\d*)?([^# ]*)/i'</span>,$item-&gt;photo_list,$arr);</span><br><span class="line">print_r($arr);</span><br></pre></td></tr></table></figure></p><p>匹配图片网址：<br>(\w+):\/\/([^\:]+)(:\d*)?([\w\/]+)(.[jpg|png|gif]+)<br>例：<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$re = <span class="string">'/(\w+):\/\/([^\:]+)(:\d*)?([\w\/]+)(.[jpg|png|gif]+)/i'</span>;</span><br><span class="line">$str = <span class="string">'https://wapimg.aitaotu.cc:8090/Thumb/2017/0704/9fa49f227ad0af6694e417e201cd8f96.jpg'</span>;</span><br><span class="line"></span><br><span class="line">preg_match_all($re, $str, $matches, PREG_SET_ORDER, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Print the entire match result</span></span><br><span class="line">var_dump($matches);</span><br><span class="line"><span class="keyword">echo</span> $matches[<span class="number">0</span>][<span class="number">0</span>];</span><br></pre></td></tr></table></figure></p><h3 id="一、校验数字的表达式"><a href="#一、校验数字的表达式" class="headerlink" title="一、校验数字的表达式"></a>一、校验数字的表达式</h3><ul><li>数字：^[0-9]*$</li><li>n位的数字：^\d{n}$</li><li>至少n位的数字：^\d{n,}$</li><li>m-n位的数字：^\d{m,n}$</li><li>零和非零开头的数字：^(0|[1-9][0-9]*)$</li><li>非零开头的最多带两位小数的数字：^([1-9][0-9]*)+(.[0-9]{1,2})?$</li><li>带1-2位小数的正数或负数：^(-)?\d+(.\d{1,2})$</li><li>正数、负数、和小数：^(-|+)?\d+(.\d+)?$</li><li>有两位小数的正实数：^[0-9]+(.[0-9]{2})?$</li><li>有1~3位小数的正实数：^[0-9]+(.[0-9]{1,3})?$</li><li>非零的正整数：^[1-9]\d<em>$ 或 ^([1-9][0-9]</em>){1,3}$ 或 ^+?[1-9][0-9]*$</li><li>非零的负整数：^-[1-9][]0-9”<em>$ 或 ^-[1-9]\d</em>$</li><li>非负整数：^\d+$ 或 ^[1-9]\d*|0$</li><li>非正整数：^-[1-9]\d*|0$ 或 ^((-\d+)|(0+))$</li><li>非负浮点数：^\d+(.\d+)?$ 或 ^[1-9]\d<em>.\d</em>|0.\d<em>[1-9]\d</em>|0?.0+|0$</li><li>非正浮点数：^((-\d+(.\d+)?)|(0+(.0+)?))$ 或 ^(-([1-9]\d<em>.\d</em>|0.\d<em>[1-9]\d</em>))|0?.0+|0$</li><li>正浮点数：^[1-9]\d<em>.\d</em>|0.\d<em>[1-9]\d</em>$ 或 ^(([0-9]+.[0-9]<em>[1-9][0-9]</em>)|([0-9]<em>[1-9][0-9]</em>.[0-9]+)|([0-9]<em>[1-9][0-9]</em>))$</li><li>负浮点数：^-([1-9]\d<em>.\d</em>|0.\d<em>[1-9]\d</em>)$ 或 ^(-(([0-9]+.[0-9]<em>[1-9][0-9]</em>)|([0-9]<em>[1-9][0-9]</em>.[0-9]+)|([0-9]<em>[1-9][0-9]</em>)))$</li><li>浮点数：^(-?\d+)(.\d+)?$ 或 ^-?([1-9]\d<em>.\d</em>|0.\d<em>[1-9]\d</em>|0?.0+|0)$<h3 id="二、校验字符的表达式"><a href="#二、校验字符的表达式" class="headerlink" title="二、校验字符的表达式"></a>二、校验字符的表达式</h3></li><li>汉字：^[\u4e00-\u9fa5]{0,}$</li><li>英文和数字：^[A-Za-z0-9]+$ 或 ^[A-Za-z0-9]{4,40}$</li><li>长度为3-20的所有字符：^.{3,20}$</li><li>由26个英文字母组成的字符串：^[A-Za-z]+$</li><li>由26个大写英文字母组成的字符串：^[A-Z]+$</li><li>由26个小写英文字母组成的字符串：^[a-z]+$</li><li>由数字和26个英文字母组成的字符串：^[A-Za-z0-9]+$</li><li>由数字、26个英文字母或者下划线组成的字符串：^\w+$ 或 ^\w{3,20}$</li><li>中文、英文、数字包括下划线：^[\u4E00-\u9FA5A-Za-z0-9_]+$</li><li>中文、英文、数字但不包括下划线等符号：^[\u4E00-\u9FA5A-Za-z0-9]+$ 或 ^[\u4E00-\u9FA5A-Za-z0-9]{2,20}$</li><li>可以输入含有^%&amp;’,;=?$\”等字符：[^%&amp;’,;=?$\x22]+</li><li>禁止输入含有~的字符：[^~\x22]+<h3 id="三、特殊需求表达式"><a href="#三、特殊需求表达式" class="headerlink" title="三、特殊需求表达式"></a>三、特殊需求表达式</h3></li><li>Email地址：^\w+([-+.]\w+)<em>@\w+([-.]\w+)</em>.\w+([-.]\w+)*$</li><li>域名：[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(/.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+/.?</li><li>InternetURL：[a-zA-z]+://[^\s]<em> 或 ^http://([\w-]+.)+[\w-]+(/[\w-./?%&amp;=]</em>)?$</li><li>手机号码：^(13[0-9]|14[5|7]|15[0|1|2|3|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$</li><li>电话号码(“XXX-XXXXXXX”、”XXXX-XXXXXXXX”、”XXX-XXXXXXX”、”XXX-XXXXXXXX”、”XXXXXXX”和”XXXXXXXX)：^((\d{3,4}-)|\d{3.4}-)?\d{7,8}$</li><li>国内电话号码(0511-4405222、021-87888822)：\d{3}-\d{8}|\d{4}-\d{7}</li><li>电话号码正则表达式（支持手机号码，3-4位区号，7-8位直播号码，1－4位分机号）: ((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})– (\d{4}|\d{3}|\d{2}|\d{1}))$)</li><li>身份证号(15位、18位数字)，最后一位是校验位，可能为数字或字符X：(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)</li><li>帐号是否合法(字母开头，允许5-16字节，允许字母数字下划线)：^[a-zA-Z][a-zA-Z0-9_]{4,15}$</li><li>密码(以字母开头，长度在6~18之间，只能包含字母、数字和下划线)：^[a-zA-Z]\w{5,17}$</li><li>强密码(必须包含大小写字母和数字的组合，不能使用特殊字符，长度在 8-10 之间)：^(?=.<em>\d)(?=.</em>[a-z])(?=.*[A-Z])[a-zA-Z0-9]{8,10}$</li><li>强密码(必须包含大小写字母和数字的组合，可以使用特殊字符，长度在8-10之间)：^(?=.<em>\d)(?=.</em>[a-z])(?=.*[A-Z]).{8,10}$</li><li>日期格式：^\d{4}-\d{1,2}-\d{1,2}</li><li>一年的12个月(01～09和1～12)：^(0?[1-9]|1[0-2])$</li><li>一个月的31天(01～09和1～31)：^((0?[1-9])|((1|2)[0-9])|30|31)$</li><li>钱的输入格式：</li><li><ul><li>有四种钱的表示形式我们可以接受:”10000.00” 和 “10,000.00”, 和没有 “分” 的 “10000” 和 “10,000”：^[1-9][0-9]*$</li></ul></li><li><ul><li>这表示任意一个不以0开头的数字,但是,这也意味着一个字符”0”不通过,所以我们采用下面的形式：^(0|[1-9][0-9]*)$</li></ul></li><li><ul><li>一个0或者一个不以0开头的数字.我们还可以允许开头有一个负号：^(0|-?[1-9][0-9]*)$</li></ul></li><li><ul><li>这表示一个0或者一个可能为负的开头不为0的数字.让用户以0开头好了.把负号的也去掉,因为钱总不能是负的吧。下面我们要加的是说明可能的小数部分：^[0-9]+(.[0-9]+)?$</li></ul></li><li><ul><li>必须说明的是,小数点后面至少应该有1位数,所以”10.”是不通过的,但是 “10” 和 “10.2” 是通过的：^[0-9]+(.[0-9]{2})?$</li></ul></li><li><ul><li>这样我们规定小数点后面必须有两位,如果你认为太苛刻了,可以这样：^[0-9]+(.[0-9]{1,2})?$</li></ul></li><li><ul><li>这样就允许用户只写一位小数.下面我们该考虑数字中的逗号了,我们可以这样：^[0-9]{1,3}(,[0-9]{3})*(.[0-9]{1,2})?$</li></ul></li><li><ul><li>1到3个数字,后面跟着任意个 逗号+3个数字,逗号成为可选,而不是必须：^([0-9]+|[0-9]{1,3}(,[0-9]{3})*)(.[0-9]{1,2})?$</li></ul></li><li><ul><li>备注：这就是最终结果了,别忘了”+”可以用”*”替代如果你觉得空字符串也可以接受的话(奇怪,为什么?)最后,别忘了在用函数时去掉去掉那个反斜杠,一般的错误都在这里</li></ul></li><li>xml文件：^([a-zA-Z]+-?)+[a-zA-Z0-9]+\.[x|X][m|M][l|L]$</li><li>中文字符的正则表达式：[\u4e00-\u9fa5]</li><li>双字节字符：[^\x00-\xff] (包括汉字在内，可以用来计算字符串的长度(一个双字节字符长度计2，ASCII字符计1))</li><li>空白行的正则表达式：\n\s*\r (可以用来删除空白行)</li><li>HTML标记的正则表达式：&lt;(\S<em>?)[^&gt;]</em>&gt;.<em>?|&lt;.</em>? /&gt; ( 首尾空白字符的正则表达式：^\s<em>|\s</em>$或(^\s<em>)|(\s</em>$) (可以用来删除行首行尾的空白字符(包括空格、制表符、换页符等等)，非常有用的表达式)</li><li>腾讯QQ号：[1-9][0-9]{4,} (腾讯QQ号从10000开始)</li><li>中国邮政编码：[1-9]\d{5}(?!\d) (中国邮政编码为6位数字)</li><li>IP地址：((?:(?:25[0-5]|2[0-4]\d|[01]?\d?\d)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d?\d))</li></ul><p>参考来源：<a href="https://c.runoob.com/front-end/854" target="_blank" rel="noopener">https://c.runoob.com/front-end/854</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CENTOS7安装各种桌面，CENTOS安装桌面图形化GUI GNOME/KDE/Cinnamon/MATE/Xfce</title>
+      <link href="/2019/02/23/CENTOS7%E5%AE%89%E8%A3%85%E5%90%84%E7%A7%8D%E6%A1%8C%E9%9D%A2%EF%BC%8CCENTOS%E5%AE%89%E8%A3%85%E6%A1%8C%E9%9D%A2%E5%9B%BE%E5%BD%A2%E5%8C%96GUI-GNOME-KDE-Cinnamon-MATE-Xfce/"/>
+      <url>/2019/02/23/CENTOS7%E5%AE%89%E8%A3%85%E5%90%84%E7%A7%8D%E6%A1%8C%E9%9D%A2%EF%BC%8CCENTOS%E5%AE%89%E8%A3%85%E6%A1%8C%E9%9D%A2%E5%9B%BE%E5%BD%A2%E5%8C%96GUI-GNOME-KDE-Cinnamon-MATE-Xfce/</url>
+      
+        <content type="html"><![CDATA[<p>如果你的CENTOS是最小化安装的那默认都是不带X WINDOWS的，所以在安装这些桌面之前得先安装一下X WINDOWS，这个控制功能。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yum upgrade</span><br><span class="line">yum install yum-axelget</span><br><span class="line">yum -y groupinstall <span class="string">"X Window System"</span> <span class="string">"Fonts"</span></span><br></pre></td></tr></table></figure></p><p>检查一下我们已经安装的软件以及可以安装的软件，用命令:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum grouplist &lt;回车&gt;</span><br></pre></td></tr></table></figure></p><p>然后安装我们需要的图形界面软件，比如GNOME(GNOME Desktop)<br>这里需要特别注意！！！！<br>一定要注意，名称必须对应，不同版本的centOS的软件名可能不同，其他Linux系统类似，<br>否则会出现No packages in any requested group available to install or update 的错误。</p><p>1.安装cinnamon桌面<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yum -y groupinstall <span class="string">"X Window system"</span> <span class="string">"Fonts"</span></span><br><span class="line">yum -y install lightdm</span><br><span class="line">yum -y install cinnamon</span><br></pre></td></tr></table></figure></p><p>2.安装终端软件<br>安装完成后会发现没有终端软件，执行下面的指令，安装就可以了<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install gnome-terminal</span><br></pre></td></tr></table></figure></p><p>3.启动桌面<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl isolate graphical.target</span><br></pre></td></tr></table></figure></p><p>4.用startx命令启动（可选）<br>执行下面的指令，生成.xinitrc<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"systemctl isolate graphical.target"</span> &gt;&gt; ~/.xinitrc</span><br><span class="line">startx</span><br></pre></td></tr></table></figure></p><p>5.设置开机启动桌面（可选）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">set</span>-default graphical.target</span><br><span class="line">rm <span class="string">'/etc/systemd/system/default.target'</span></span><br><span class="line">ln -s <span class="string">'/usr/lib/systemd/system/graphical.target'</span> <span class="string">'/etc/systemd/system/default.target'</span></span><br></pre></td></tr></table></figure></p><p>6.安装windows字体<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y groupinstall <span class="string">"Fonts"</span></span><br></pre></td></tr></table></figure></p><p>或者：<br>把windows下的一些字体使用tftp复制到了~/myfonts，这个目录要自己建（#mkdir ~/myfonts）<br>进行/usr/share/fonts目录，建立~/myfonts目录软连接，<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /usr/share/fonts</span><br><span class="line">ln -s ~/fonts myfonts</span><br><span class="line">mk fontscale</span><br><span class="line">mk fontdir</span><br><span class="line"><span class="built_in">fc</span>-cache</span><br></pre></td></tr></table></figure></p><p>来源参考：<br><a href="https://www.bnxb.com/linuxserver/27457.html" target="_blank" rel="noopener">https://www.bnxb.com/linuxserver/27457.html</a><br><a href="https://blog.csdn.net/jameshadoop/article/details/54881893" target="_blank" rel="noopener">https://blog.csdn.net/jameshadoop/article/details/54881893</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centos7 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux(CentOS 7)命令行模式安装VMware Tools 详解</title>
+      <link href="/2019/02/23/Linux-CentOS-7-%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85VMware-Tools-%E8%AF%A6%E8%A7%A3/"/>
+      <url>/2019/02/23/Linux-CentOS-7-%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85VMware-Tools-%E8%AF%A6%E8%A7%A3/</url>
+      
+        <content type="html"><![CDATA[<p>1.首先启动CentOS 7,在VMware中点击上方“VM”，点击“Install VMware Tools…”（如已安装则显示“Reinstall VMware Tools…”）。</p><p>2.在命令行输入“ls /dev”查看。</p><p>3.输入“mkdir /mnt/cdrom”在/mnt目录下新建一个名为cdrom的文件夹。</p><p>4.输入“mount -t iso9660 /dev/cdrom /mnt/cdrom”将光盘挂载到/mnt/cdrom目录下。</p><p>5.输入“ls /mnt/cdrom/”查看内容，输入“cp /mnt/cdrom/VMwareTools-9.2.0-799703.tar.gz /root/vm.tar.gz”,将名为“VMwareTools-9.2.0-799703.tar.gz”复制到/root目录下，并重新命名为vm.tar.gz。</p><p>6.在根目录下输入“ls”查看文件，输入“tar -xzf vm.tar.gz”将文件解压，输入“ls”查看文件，可发现新增目录“vmware-tools-distrib”。</p><p>7.输入“cd vmware-tools-distrib/”进入名为“vmware-tools-distrib”的目录，输入“./vmware-install.pl”尝试安装，出现错误“-bash: ./vmware-install.pl: /usr/bin/per: bad interpreter: No such file or directory”，表明未安装编译环境。</p><p>8.输入“yum -y install perl gcc make kernel-headers kernel-devel”开始安装。</p><p>9.提示已经安装完毕。</p><p>10.在“vmware-tools-distrib”目录下重新输入“./vmware-install.pl”开始安装，基本上按回车键即可。</p><p>11.VMware Tools已经安装完毕，提示可以运行“/usr/bin/vmware-uninstall-tools.pl”命令卸载VMware Tools。第一次运行时需运行“/usr/bin/vmware-config-tools.pl”命令配置VMware Tools，按回车键直接运行。</p><p>12.提示已经安装完毕，可以开始使用。</p><p>13.输入”/usr/bin/vmware-user”启动vmware用户进程，并输入”startx“启动图形界面。</p><p>14.选择文件（本例中为”测试文档.docx”）并摁住鼠标左键不放，尝试拖动文件到虚拟机。</p><p>15.放开鼠标左键，发现文件已经复制到虚拟机。</p><p>16.如需卸载VMware Tools，输入“/usr/bin/vmware-uninstall-tools.pl”即可。</p><p>17.如需在Gnome GUI图形界面下安装，则只需将文件解压，然后再文件夹里点鼠标右键，选择“Open in Terminal”,在Terminal里面输入“./vmware-install.pl”即可。</p><p>安装故障</p><p>18.如安装时出现类似下图错误，提示无法删除open-vm-tools，则可能是因为上次安装失败造成。</p><p>19.如尝试输入“/usr/bin/vmware-uninstall-tools.pl”仍无法卸载，则输入“rpm -e open-vm-tools-desktop”卸载并重新安装。</p><p>来源于：<a href="https://www.linuxidc.com/Linux/2017-05/143323.htm" target="_blank" rel="noopener">https://www.linuxidc.com/Linux/2017-05/143323.htm</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centos7 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>phalcon别名关系（Aliasing Relationships）</title>
+      <link href="/2019/02/23/phalcon%E5%88%AB%E5%90%8D%E5%85%B3%E7%B3%BB%EF%BC%88Aliasing-Relationships%EF%BC%89/"/>
+      <url>/2019/02/23/phalcon%E5%88%AB%E5%90%8D%E5%85%B3%E7%B3%BB%EF%BC%88Aliasing-Relationships%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<p>当一个数据库表是具有关联数组型的表（即级联型，省市区型，二级分类、三级分类等），或者做内联查询时要起别名。<br><a href="https://docs.phalconphp.com/zh/latest/db-models-relationships#relationships-between-models" target="_blank" rel="noopener">https://docs.phalconphp.com/zh/latest/db-models-relationships#relationships-between-models</a></p><p>例如，有表如下：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; desc robots_similar;</span><br><span class="line">+<span class="comment">-------------------+------------------+------+-----+---------+----------------+</span></span><br><span class="line">| Field             | Type             | Null | Key | Default | Extra          |</span><br><span class="line">+<span class="comment">-------------------+------------------+------+-----+---------+----------------+</span></span><br><span class="line">| id                | int(10) unsigned | NO   | PRI | NULL    | auto_increment |</span><br><span class="line">| robots_id         | int(10) unsigned | NO   | MUL | NULL    |                |</span><br><span class="line">| similar_robots_id | int(10) unsigned | NO   |     | NULL    |                |</span><br><span class="line">+<span class="comment">-------------------+------------------+------+-----+---------+----------------+</span></span><br></pre></td></tr></table></figure></p><p>其中，robots_id和similar_robots_id都与模型Robots是有关系的，<br>映射此表及其关系的模型如下所示：<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">RobotsSimilar</span> <span class="keyword">extends</span> <span class="title">Phalcon</span>\<span class="title">Mvc</span>\<span class="title">Model</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">initialize</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">$this</span>-&gt;belongsTo(</span><br><span class="line">            <span class="string">'robots_id'</span>,</span><br><span class="line">            <span class="string">'Store\Toys\Robots'</span>,</span><br><span class="line">            <span class="string">'id'</span></span><br><span class="line">        );</span><br><span class="line">        <span class="keyword">$this</span>-&gt;belongsTo(</span><br><span class="line">            <span class="string">'similar_robots_id'</span>,</span><br><span class="line">            <span class="string">'Store\Toys\Robots'</span>,</span><br><span class="line">            <span class="string">'id'</span></span><br><span class="line">        );</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>由于两种关系都指向同一模型（Robots），因此获得与关系相关的记录无法清楚：</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">$robotsSimilar = RobotsSimilar::findFirst();</span><br><span class="line"><span class="comment">// 返回基于列的相关记录（robots_id）</span></span><br><span class="line"><span class="comment">// 同样作为belongsTo它只返回一条记录</span></span><br><span class="line"><span class="comment">// 但是名称'getRobots'似乎意味着返回多个</span></span><br><span class="line">$robot = $robotsSimilar-&gt;getRobots();</span><br><span class="line"><span class="comment">// 但是，如果两个关系具有相同的名称，如何根据列（similar_robots_id）获取相关记录？</span></span><br></pre></td></tr></table></figure><p>别名允许我们重命名这两个关系来解决这些问题：</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">use</span> <span class="title">Phalcon</span>\<span class="title">Mvc</span>\<span class="title">Model</span>;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">RobotsSimilar</span> <span class="keyword">extends</span> <span class="title">Model</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">initialize</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">$this</span>-&gt;belongsTo(</span><br><span class="line">            <span class="string">'robots_id'</span>,</span><br><span class="line">            <span class="string">'Store\Toys\Robots'</span>,</span><br><span class="line">            <span class="string">'id'</span>,</span><br><span class="line">            [ <span class="string">'alias'</span> =&gt; <span class="string">'Robot'</span>, ]</span><br><span class="line">        );</span><br><span class="line">        <span class="keyword">$this</span>-&gt;belongsTo(</span><br><span class="line">            <span class="string">'similar_robots_id'</span>,</span><br><span class="line">            <span class="string">'Store\Toys\Robots'</span>,</span><br><span class="line">            <span class="string">'id'</span>,</span><br><span class="line">            [ <span class="string">'alias'</span> =&gt; <span class="string">'SimilarRobot'</span>, ]</span><br><span class="line">        );</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>通过别名，我们可以轻松获得相关记录。您还可以使用getRelated()方法使用别名来访问关系:</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">$robotsSimilar = RobotsSimilar::findFirst();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 返回基于列的相关记录（robots_id）</span></span><br><span class="line">$robot = $robotsSimilar-&gt;getRobot();</span><br><span class="line">$robot = $robotsSimilar-&gt;robot;</span><br><span class="line">$robot = $robotsSimilar-&gt;getRelated(<span class="string">'Robot'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 返回基于列的相关记录（similar_robots_id）</span></span><br><span class="line">$similarRobot = $robotsSimilar-&gt;getSimilarRobot();</span><br><span class="line">$similarRobot = $robotsSimilar-&gt;similarRobot;</span><br><span class="line">$similarRobot = $robotsSimilar-&gt;getRelated(<span class="string">'SimilarRobot'</span>);</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> php </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> phalcon </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网站出现404错误的一种原因（基于宝塔面板）</title>
+      <link href="/2019/02/23/%E7%BD%91%E7%AB%99%E5%87%BA%E7%8E%B0404%E9%94%99%E8%AF%AF%E7%9A%84%E4%B8%80%E7%A7%8D%E5%8E%9F%E5%9B%A0%EF%BC%88%E5%9F%BA%E4%BA%8E%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%EF%BC%89/"/>
+      <url>/2019/02/23/%E7%BD%91%E7%AB%99%E5%87%BA%E7%8E%B0404%E9%94%99%E8%AF%AF%E7%9A%84%E4%B8%80%E7%A7%8D%E5%8E%9F%E5%9B%A0%EF%BC%88%E5%9F%BA%E4%BA%8E%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<p>打开 /www/server/nginx/conf/enable-php-72.conf文件，把里面的内容<br>复制到 /www/server/panel/vhost/nginx/photo.com.conf 文件相应的位置，<br>重启nginx服务器。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 宝塔面板 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nginx </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>在phalcon中控制器的initialize()与onConstruct()的区别和联系</title>
+      <link href="/2019/02/23/%E5%9C%A8phalcon%E4%B8%AD%E6%8E%A7%E5%88%B6%E5%99%A8%E7%9A%84initialize-%E4%B8%8EonConstruct-%E7%9A%84%E5%8C%BA%E5%88%AB%E5%92%8C%E8%81%94%E7%B3%BB/"/>
+      <url>/2019/02/23/%E5%9C%A8phalcon%E4%B8%AD%E6%8E%A7%E5%88%B6%E5%99%A8%E7%9A%84initialize-%E4%B8%8EonConstruct-%E7%9A%84%E5%8C%BA%E5%88%AB%E5%92%8C%E8%81%94%E7%B3%BB/</url>
+      
+        <content type="html"><![CDATA[<p>可参考：<a href="https://segmentfault.com/a/1190000008665717" target="_blank" rel="noopener">https://segmentfault.com/a/1190000008665717</a></p><p>执行顺序是先 onConstruct() 函数，后 initialize() 函数。<br>onConstruct() 是实例化对象的过程，相当于 new<br>initialize() 是初始化资源的过程。如加载DI中注册的所有服务</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> php </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> phalcon </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>忘记Linux 3.X/4.x/5.x 宝塔面板密码的解决方案</title>
+      <link href="/2019/02/18/%E5%BF%98%E8%AE%B0Linux-3-X-4-x-5-x-%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%AF%86%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+      <url>/2019/02/18/%E5%BF%98%E8%AE%B0Linux-3-X-4-x-5-x-%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%AF%86%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
+      
+        <content type="html"><![CDATA[<p>进入ssh 输入以下命令重置密码（把命令最后面的   “testpasswd”  替换成你要改的新密码）<br>注：若是debian/ubuntu用户，请使用有root权限的账户去执行这条命令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /www/server/panel &amp;&amp; python tools.pyc panel testpasswd</span><br></pre></td></tr></table></figure></p><p>如果提示多次登录失败，暂时禁止登录 请输入以下命令: 清除登录限制<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -f /www/server/panel/data/*.login</span><br></pre></td></tr></table></figure></p><p>新装面板用户获取默认账号密码命令：bt default</p><p>6.x及以后版本可输入:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bt</span><br></pre></td></tr></table></figure></p><p>命令获取工具菜单来重置账户密码</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 宝塔面板 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 宝塔面板 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>宝塔面板，数据库等的管理</title>
+      <link href="/2019/02/18/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%EF%BC%8C%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AD%89%E7%9A%84%E7%AE%A1%E7%90%86/"/>
+      <url>/2019/02/18/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%EF%BC%8C%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AD%89%E7%9A%84%E7%AE%A1%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<p>（1）安装宝塔<br>Centos安装脚本<br>yum install -y wget &amp;&amp; wget -O install.sh <a href="http://download.bt.cn/install/install.sh" target="_blank" rel="noopener">http://download.bt.cn/install/install.sh</a> &amp;&amp; sh install.sh<br>Ubuntu/Deepin安装脚本<br>wget -O install.sh <a href="http://download.bt.cn/install/install-ubuntu.sh" target="_blank" rel="noopener">http://download.bt.cn/install/install-ubuntu.sh</a> &amp;&amp; sudo bash install.sh<br>Debian安装脚本<br>wget -O install.sh <a href="http://download.bt.cn/install/install-ubuntu.sh" target="_blank" rel="noopener">http://download.bt.cn/install/install-ubuntu.sh</a> &amp;&amp; bash install.sh<br>Fedora安装脚本<br>wget -O install.sh <a href="http://download.bt.cn/install/install.sh" target="_blank" rel="noopener">http://download.bt.cn/install/install.sh</a> &amp;&amp; bash install.sh</p><p>（2）管理宝塔<br>停止<br>/etc/init.d/bt stop<br>启动<br>/etc/init.d/bt start<br>重启<br>/etc/init.d/bt restart<br>卸载<br>/etc/init.d/bt stop &amp;&amp; chkconfig –del bt &amp;&amp; rm -f /etc/init.d/bt &amp;&amp; rm -rf /www/server/panel<br>查看当前面板端口<br>cat /www/server/panel/data/port.pl<br>修改面板端口，如要改成8881（centos 6 系统）<br>echo ‘8881’ &gt; /www/server/panel/data/port.pl &amp;&amp; /etc/init.d/bt restart<br>iptables -I INPUT -p tcp -m state –state NEW -m tcp –dport 8881 -j ACCEPT<br>service iptables save<br>service iptables restart<br>修改面板端口，如要改成8881（centos 7 系统）<br>echo ‘8881’ &gt; /www/server/panel/data/port.pl &amp;&amp; /etc/init.d/bt restart<br>firewall-cmd –permanent –zone=public –add-port=8881/tcp<br>firewall-cmd –reload<br>强制修改MySQL管理(root)密码，如要改成123456<br>cd /www/server/panel &amp;&amp; python tools.pyc root 123456<br>修改面板密码，如要改成123456<br>cd /www/server/panel &amp;&amp; python tools.pyc panel 123456<br>查看宝塔日志<br>cat /tmp/panelBoot.pl<br>查看软件安装日志<br>cat /tmp/panelExec.log<br>站点配置文件位置<br>/www/server/panel/vhost<br>删除域名绑定面板<br>rm -f /www/server/panel/data/domain.conf<br>清理登陆限制<br>rm -f /www/server/panel/data/<em>.login<br>查看面板授权IP<br>cat /www/server/panel/data/limitip.conf<br>关闭访问限制<br>rm -f /www/server/panel/data/limitip.conf<br>查看许可域名<br>cat /www/server/panel/data/domain.conf<br>关闭面板SSL<br>rm -f /www/server/panel/data/ssl.pl &amp;&amp; /etc/init.d/bt restart<br>查看面板错误日志<br>cat /tmp/panelBoot<br>查看数据库错误日志<br>cat /www/server/data/</em>.err<br>站点配置文件目录(nginx)<br>/www/server/panel/vhost/nginx<br>站点配置文件目录(apache)<br>/www/server/panel/vhost/apache<br>站点默认目录<br>/www/wwwroot<br>数据库备份目录<br>/www/backup/database<br>站点备份目录<br>/www/backup/site<br>站点日志<br>/www/wwwlogs</p><p>（3）Nginx服务管理<br>nginx安装目录<br>/www/server/nginx<br>启动<br>/etc/init.d/nginx start<br>停止<br>/etc/init.d/nginx stop<br>重启<br>/etc/init.d/nginx restart<br>启载<br>/etc/init.d/nginx reload<br>nginx配置文件<br>/www/server/nginx/conf/nginx.conf</p><p>（4）Apache服务管理<br>apache安装目录<br>/www/server/httpd<br>启动<br>/etc/init.d/httpd start<br>停止<br>/etc/init.d/httpd stop<br>重启<br>/etc/init.d/httpd restart<br>启载<br>/etc/init.d/httpd reload<br>apache配置文件<br>/www/server/apache/conf/httpd.conf</p><p>（5）MySQL服务管理<br>mysql安装目录<br>/www/server/mysql<br>phpmyadmin安装目录<br>/www/server/phpmyadmin<br>数据存储目录<br>/www/server/data<br>启动<br>/etc/init.d/mysqld start<br>停止<br>/etc/init.d/mysqld stop<br>重启<br>/etc/init.d/mysqld restart<br>启载<br>/etc/init.d/mysqld reload<br>mysql配置文件<br>/etc/my.cnf</p><p>（6）FTP服务管理<br>ftp安装目录<br>/www/server/pure-ftpd<br>启动<br>/etc/init.d/pure-ftpd start<br>停止<br>/etc/init.d/pure-ftpd stop<br>重启<br>/etc/init.d/pure-ftpd restart<br>ftp配置文件<br>/www/server/pure-ftpd/etc/pure-ftpd.conf</p><p>（7）PHP服务管理<br>php安装目录<br>/www/server/php<br>启动(请根据安装PHP版本号做更改，例如：/etc/init.d/php-fpm-54 start)<br>/etc/init.d/php-fpm-{52|53|54|55|56|70|71} start<br>停止(请根据安装PHP版本号做更改，例如：/etc/init.d/php-fpm-54 stop)<br>/etc/init.d/php-fpm-{52|53|54|55|56|70|71} stop<br>重启(请根据安装PHP版本号做更改，例如：/etc/init.d/php-fpm-54 restart)<br>/etc/init.d/php-fpm-{52|53|54|55|56|70|71} restart<br>启载(请根据安装PHP版本号做更改，例如：/etc/init.d/php-fpm-54 reload)<br>/etc/init.d/php-fpm-{52|53|54|55|56|70|71} reload<br>配置文件(请根据安装PHP版本号做更改，例如：/www/server/php/52/etc/php.ini)<br>/www/server/php/{52|53|54|55|56|70|71}/etc/php.ini</p><p>（8）Redis服务管理<br>redis安装目录<br>/www/server/redis<br>启动<br>/etc/init.d/redis start<br>停止<br>/etc/init.d/redis stop<br>redis配置文件<br>/www/server/redis/redis.conf</p><p>（9）Memcached服务管理<br>memcached安装目录<br>/usr/local/memcached<br>启动<br>/etc/init.d/memcached start<br>停止<br>/etc/init.d/memcached stop<br>重启<br>/etc/init.d/memcached restart<br>启载<br>/etc/init.d/memcached reload</p><p> （10）请使用正确的入口登录面板<br>错误原因：当前宝塔新安装的已经开启了安全入口登录，新装机器都会随机一个8位字符的安全入口名称，亦可以在面板设置处修改，如您没记录或不记得了，可以使用以下方式解决<br>解决方法：在SSH终端输入以下一种命令来解决<br>1.查看面板入口：/etc/init.d/bt default<br>2.关闭安全入口：rm -f /www/server/panel/data/admin_path.pl</p><p>来源于宝塔面板官网</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 宝塔面板 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 宝塔面板 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Uncaught SyntaxError: Unexpected end of input 的解决办法</title>
+      <link href="/2019/02/18/Uncaught-SyntaxError-Unexpected-end-of-input-%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+      <url>/2019/02/18/Uncaught-SyntaxError-Unexpected-end-of-input-%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>Unexpected end of input  的英文意思是“意外的终止输入”，<br>他通常表示我们浏览器在读取我们的js代码时，碰到了不可预知的错误，导致浏览器无法进行下面的读取，<br>通常造成这种错误的原因是应该成双的符号输入错误，比如说””，’’，{}，[]，<br>或者使用了 // 注释。</p><p>来源于网络</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> js </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>phalcon 的目录权限问题</title>
+      <link href="/2019/02/18/phalcon-%E7%9A%84%E7%9B%AE%E5%BD%95%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/"/>
+      <url>/2019/02/18/phalcon-%E7%9A%84%E7%9B%AE%E5%BD%95%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<p>使用宝塔面板创建的一个php项目，出现禁止访问的相关错误，应是目录权限的问题：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost wwwroot]<span class="comment"># chown -R www:www photo/</span></span><br><span class="line">chown: 正在更改<span class="string">"photo/public/.user.ini"</span> 的所有者: 不允许的操作</span><br><span class="line">chown: 正在更改<span class="string">"photo/.user.ini"</span> 的所有者: 不允许的操作</span><br><span class="line">[root@localhost wwwroot]<span class="comment"># chattr -i photo/.user.ini</span></span><br><span class="line">[root@localhost wwwroot]<span class="comment"># chattr -i photo/public/.user.ini</span></span><br><span class="line">[root@localhost wwwroot]<span class="comment"># rm ./photo/.user.ini</span></span><br><span class="line">rm：是否删除普通文件 <span class="string">"./photo/.user.ini"</span>？y</span><br><span class="line">[root@localhost wwwroot]<span class="comment"># rm ./photo/public/.user.ini</span></span><br><span class="line">rm：是否删除普通文件 <span class="string">"./photo/public/.user.ini"</span>？y</span><br><span class="line">[root@localhost wwwroot]<span class="comment"># chown -R www:www photo/</span></span><br><span class="line">[root@localhost wwwroot]<span class="comment"># chmod -R 755 photo/</span></span><br><span class="line">[root@localhost wwwroot]<span class="comment"># chown -R www:www photo/</span></span><br><span class="line">[root@localhost wwwroot]<span class="comment"># chmod -R 755 photo/</span></span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> php </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> phalcon </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>php缓存，导致php文件修改后不能立即更新</title>
+      <link href="/2019/02/18/php%E7%BC%93%E5%AD%98%EF%BC%8C%E5%AF%BC%E8%87%B4php%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E5%90%8E%E4%B8%8D%E8%83%BD%E7%AB%8B%E5%8D%B3%E6%9B%B4%E6%96%B0/"/>
+      <url>/2019/02/18/php%E7%BC%93%E5%AD%98%EF%BC%8C%E5%AF%BC%E8%87%B4php%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E5%90%8E%E4%B8%8D%E8%83%BD%E7%AB%8B%E5%8D%B3%E6%9B%B4%E6%96%B0/</url>
+      
+        <content type="html"><![CDATA[<p>打开php的配置ini文件，修改<br>opcache.enable=1<br>为<br>opcache.enable=0<br>即可禁用php缓存。<br>重启后生效。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> php </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> php </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>无法连接数据库，显示：ERROR 1045 (28000): Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)</title>
+      <link href="/2019/02/18/%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%E6%98%BE%E7%A4%BA%EF%BC%9AERROR-1045-28000-Access-denied-for-user-root-localhost-using-password-YES/"/>
+      <url>/2019/02/18/%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%E6%98%BE%E7%A4%BA%EF%BC%9AERROR-1045-28000-Access-denied-for-user-root-localhost-using-password-YES/</url>
+      
+        <content type="html"><![CDATA[<p>1.打开MySQL目录下的my.ini文件，在文件的 [mysqld] 下面添加一行“skip-grant-tables”，保存并关闭文件。（WIN7默认安装my.ini在C:\ProgramData\MySQL\MySQL Server 5.6，Linux则在shell命令中搜索 whereis my ， 可找到my.cnf，再用vi/vim编辑。）<br>2.重启MySQL服务。<br>3.通过命令行进入MySQL的BIN目录，输入“mysql -u root -p”(不输入密码)，回车即可进入数据库。（WIN7默认安装，BIN目录为：C:\Program Files\MySQL\MySQL Server 5.6\bin）<br>4.执行“ use mysql; ”，使用mysql数据库。<br>5.执行“ update user set password=PASSWORD(“123456”) where user=’root’; ”（修改root的密码）<br>6.打开MySQL目录下的my.ini文件，删除或注释 [mysqld] 下面的“ skip-grant-tables ”，保存并关闭文件。<br>7.重启MySQL服务。<br>8.在命令行中输入“ mysql -u root -p ”，输入密码后即可成功连接数据库。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> mysql </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>主机无法连接远程数据库，显示：ERROR 2003 (HY000): Can&#39;t connect to MySQL server on &#39;192.168.0.128&#39; (10060)</title>
+      <link href="/2019/02/18/%E4%B8%BB%E6%9C%BA%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E8%BF%9C%E7%A8%8B%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%E6%98%BE%E7%A4%BA%EF%BC%9AERROR-2003-HY000-Can-t-connect-to-MySQL-server-on-192-168-0-128-10060/"/>
+      <url>/2019/02/18/%E4%B8%BB%E6%9C%BA%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E8%BF%9C%E7%A8%8B%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%E6%98%BE%E7%A4%BA%EF%BC%9AERROR-2003-HY000-Can-t-connect-to-MySQL-server-on-192-168-0-128-10060/</url>
+      
+        <content type="html"><![CDATA[<p>1.网络不通？<br>检查能不能ping通！<br>2.防火墙设置？<br>防火墙是否放过mysql的进程，是否屏蔽了mysql的3306端口！！<br>3.端口设置？<br>检查mysql的端口是不是3306！！<br>4.mysql的账户设置？<br>mysql账户是否不允许远程连接。如果无法连接可以尝试以下方法：<br>（1）如果你想root使用密码12345678从任何主机连接到mysql服务器的话：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt;GRANT ALL PRIVILEGES ON *.* TO <span class="string">'root'</span>@<span class="string">'%'</span> IDENTIFIED BY <span class="string">'12345678'</span> WITH GRANT OPTION; </span><br><span class="line"></span><br><span class="line">mysql&gt;FLUSH PRIVILEGES;</span><br></pre></td></tr></table></figure></p><p>（2）如果你想允许用户root从ip为192.168.1.6的主机连接到mysql服务器，并使用12345678作为密码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt;GRANT ALL PRIVILEGES ON *.* TO <span class="string">'root'</span>@<span class="string">'192.168.1.3'</span> IDENTIFIED BY <span class="string">'12345678'</span> WITH GRANT OPTION; </span><br><span class="line"></span><br><span class="line">mysql&gt;FLUSH PRIVILEGES;</span><br></pre></td></tr></table></figure></p><p>（3）如果你想允许用户root从ip为192.168.1.6的主机连接到mysql服务器的dk数据库，并使用12345678作为密码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt;GRANT ALL PRIVILEGES ON dk.* TO <span class="string">'root'</span>@<span class="string">'192.168.1.3'</span> IDENTIFIED BY <span class="string">'12345678'</span> WITH GRANT OPTION; </span><br><span class="line"></span><br><span class="line">mysql&gt;FLUSH PRIVILEGES;</span><br></pre></td></tr></table></figure></p><p>5.通过修改表来实现远程：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt;use mysql;</span><br><span class="line">mysql&gt;update user <span class="built_in">set</span> host = <span class="string">'%'</span> <span class="built_in">where</span> user = <span class="string">'root'</span>;</span><br></pre></td></tr></table></figure></p><p>6.修改my.cnf配置文件：<br>这个是mysql的配置文件，如果找不到在哪里的话，可以输入find /* -name my.cnf 找到，通过vi/vim编辑该文件，找到 bind-address    = 127.0.0.1 这一句，然后在前面加个#号注释掉，保存退出。（没有这一句就算了）</p><p>7.重启服务：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service mysql restart</span><br></pre></td></tr></table></figure></p><p>8.在本地远程连接<br>在命令行或终端输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql -h 服务器ip地址 -P 3306 -u root -p</span><br></pre></td></tr></table></figure></p><p>然后输入密码即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> mysql </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Windows 10 与CentOS 7 安装配置Samba服务器</title>
+      <link href="/2019/02/16/Windows-10-%E4%B8%8ECentOS-7-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <url>/2019/02/16/Windows-10-%E4%B8%8ECentOS-7-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<p>搭建和配置samba服务，实现windows与Linux之间的文件共享<br>1.查看版本：<br>CentOS系统：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># cat /etc/RedHat-release</span></span><br><span class="line">或者</span><br><span class="line"><span class="comment"># rpm -q centos-release</span></span><br></pre></td></tr></table></figure></p><p>Samba服务器：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># rpm -qi samba</span></span><br></pre></td></tr></table></figure></p><p>2.安装：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># yum -y install samba samba-client</span></span><br></pre></td></tr></table></figure></p><p>3.配置：<br>进入samba配置目录：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># cd /etc/samba/</span></span><br></pre></td></tr></table></figure></p><p>备份smb.conf<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@base samba]<span class="comment"># cp smb.conf smb.conf.origin</span></span><br></pre></td></tr></table></figure></p><p>新建smb.conf<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@base samba]<span class="comment"># vim smb.conf</span></span><br></pre></td></tr></table></figure></p><p>内容如下，保存并退出</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">[global]</span><br><span class="line">        workgroup = WORKGROUP</span><br><span class="line">        security = user</span><br><span class="line">        passdb backend = tdbsam</span><br><span class="line">        server string = CSJ Samba Server %v</span><br><span class="line">        netbios name = CSJSamba</span><br><span class="line">        map to guest = Bad User</span><br><span class="line"></span><br><span class="line">[FileShare]</span><br><span class="line">        comment = share some files</span><br><span class="line">        path = /smb/fileshare</span><br><span class="line">        public = yes</span><br><span class="line">        writeable = yes</span><br><span class="line">        create mask = 0644</span><br><span class="line">        directory mask = 0755</span><br><span class="line"></span><br><span class="line">[WebDev]</span><br><span class="line">        comment = project development directory</span><br><span class="line">        path = /smb/webdev</span><br><span class="line">        valid users = ted</span><br><span class="line">        write list = ted</span><br><span class="line">        printable = no</span><br><span class="line">        create mask = 0644</span><br><span class="line">        directory mask = 0755</span><br></pre></td></tr></table></figure><h3 id="【注意】"><a href="#【注意】" class="headerlink" title="【注意】"></a>【<em>注意</em>】</h3><p>如果只是为个人开发，可以把系统的整个 / 目录都共享出来：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">[global]</span><br><span class="line">        workgroup = WORKGROUP</span><br><span class="line">        security = user</span><br><span class="line">        passdb backend = tdbsam</span><br><span class="line">        server string = CSJ Samba Server %v</span><br><span class="line">        netbios name = CSJSamba</span><br><span class="line">        map to guest = Bad User</span><br><span class="line"></span><br><span class="line">[root]</span><br><span class="line">        comment = share whole files</span><br><span class="line">        path = /</span><br><span class="line"><span class="comment">#       public = Yes</span></span><br><span class="line">        write list = root</span><br><span class="line">        valid users = root</span><br><span class="line">        writeable = Yes</span><br><span class="line">        create mask = 0644</span><br><span class="line">        browseable = Yes</span><br><span class="line">        directory mask = 0755</span><br><span class="line"></span><br><span class="line"><span class="comment"># wwwroot这一节点可以不需要</span></span><br><span class="line">[wwwroot]</span><br><span class="line">        comment = Project dev directory</span><br><span class="line">        path = /</span><br><span class="line">        write list = root</span><br><span class="line">        valid users = root</span><br><span class="line">        writeable = Yes</span><br><span class="line">        printable = No</span><br><span class="line">        create mask = 0664</span><br><span class="line">        directory mask = 0775</span><br></pre></td></tr></table></figure></p><p>注释：<br>workgroup 项应与 Windows 主机保持一致，这里是WORKGROUP<br>security、map to guest项设置为允许匿名用户访问<br>再下面有两个section，实际为两个目录，section名就是目录名（映射到Windows上可以看见）。<br>第一个目录名是FileShare，匿名、公开、可写<br>第二个目录名是WebDev，限定ted用户访问<br>默认文件属性644/755（不然的话，Windows上在这个目录下新建的文件会有“可执行”属性）</p><p>创建用户<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">[root@base samba]<span class="comment"># groupadd co3</span></span><br><span class="line">[root@base samba]<span class="comment"># useradd ted -g co3 -s /sbin/nologin</span></span><br><span class="line">[root@base samba]<span class="comment"># smbpasswd -a ted</span></span><br><span class="line">New SMB password:</span><br><span class="line">Retype new SMB password:</span><br><span class="line">Added user ted.</span><br><span class="line">[root@base samba]<span class="comment"># </span></span><br><span class="line">注意这里smbpasswd将使用系统用户，设置密码</span><br></pre></td></tr></table></figure></p><h3 id="【注意】-1"><a href="#【注意】-1" class="headerlink" title="【注意】"></a>【<em>注意</em>】</h3><p>若只是个人开发，可为samba设置用户为root，即<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[root@base samba]<span class="comment"># useradd root -g root -s /sbin/nologin</span></span><br><span class="line">[root@base samba]<span class="comment"># smbpasswd -a root</span></span><br><span class="line">New SMB password:</span><br><span class="line">Retype new SMB password:</span><br><span class="line">Added user root.</span><br><span class="line">[root@base samba]<span class="comment">#</span></span><br></pre></td></tr></table></figure></p><p>4.创建共享目录<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[root@base samba]<span class="comment"># mkdir -p /smb/&#123;fileshare,webdev&#125;</span></span><br><span class="line">[root@base samba]<span class="comment"># chown nobody:nobody /smb/fileshare/</span></span><br><span class="line">[root@base samba]<span class="comment"># chown ted:co3 /smb/webdev/</span></span><br></pre></td></tr></table></figure></p><p>注意设置属性，不然访问不了。</p><h3 id="【注意】-2"><a href="#【注意】-2" class="headerlink" title="【注意】"></a>【<em>注意</em>】</h3><p>同样接上，若是个人开发，可不需要mkdir，<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@base samba]<span class="comment"># chown nobody:nobody /</span></span><br><span class="line">[root@base samba]<span class="comment"># chown root:root /</span></span><br></pre></td></tr></table></figure></p><p>启动Samba服务，设置开机启动<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@base samba]<span class="comment"># systemctl start smb</span></span><br><span class="line">[root@base samba]<span class="comment"># systemctl enable smb</span></span><br><span class="line">Created symlink from /etc/systemd/system/multi-user.target.wants/smb.service to /usr/lib/systemd/system/smb.service.</span><br><span class="line">[root@base samba]<span class="comment">#</span></span><br></pre></td></tr></table></figure></p><p>开放端口<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[root@base samba]<span class="comment"># firewall-cmd --permanent --add-port=139/tcp</span></span><br><span class="line">success</span><br><span class="line">[root@base samba]<span class="comment"># firewall-cmd --permanent --add-port=445/tcp</span></span><br><span class="line">success</span><br><span class="line">[root@base samba]<span class="comment"># systemctl restart firewalld</span></span><br><span class="line">[root@base samba]<span class="comment">#</span></span><br></pre></td></tr></table></figure></p><p>或者直接把防火墙关了也行。</p><p>5.测试使用<br>可以使用testparm测试samba配置是否正确<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">[root@base samba]<span class="comment"># testparm </span></span><br><span class="line">Load smb config files from /etc/samba/smb.conf</span><br><span class="line">rlimit_max: increasing rlimit_max (1024) to minimum Windows <span class="built_in">limit</span> (16384)</span><br><span class="line">Processing section <span class="string">"[FileShare]"</span></span><br><span class="line">Processing section <span class="string">"[WebDev]"</span></span><br><span class="line">Loaded services file OK.</span><br><span class="line">Server role: ROLE_STANDALONE</span><br><span class="line"></span><br><span class="line">Press enter to see a dump of your service definitions</span><br><span class="line"></span><br><span class="line"><span class="comment"># Global parameters</span></span><br><span class="line">[global]</span><br><span class="line">    netbios name = TEDSAMBA</span><br><span class="line">    server string = Ted Samba Server %v</span><br><span class="line">    map to guest = Bad User</span><br><span class="line">    security = USER</span><br><span class="line">    idmap config * : backend = tdb</span><br><span class="line"></span><br><span class="line">[FileShare]</span><br><span class="line">    comment = share some files</span><br><span class="line">    path = /smb/fileshare</span><br><span class="line">    guest ok = Yes</span><br><span class="line">    <span class="built_in">read</span> only = No</span><br><span class="line"></span><br><span class="line">[WebDev]</span><br><span class="line">    comment = project development directory</span><br><span class="line">    path = /smb/webdev</span><br><span class="line">    create mask = 0644</span><br><span class="line"></span><br><span class="line">    valid users = ted</span><br><span class="line">    write list = ted</span><br><span class="line">[root@base samba]<span class="comment">#</span></span><br></pre></td></tr></table></figure></p><p>root用户的话，不用密码回车即可直接查看samba服务器情况<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@base samba]<span class="comment"># smbclient -L localhost </span></span><br><span class="line">Enter root<span class="string">'s password:</span></span><br></pre></td></tr></table></figure></p><p>6.在win10访问<br>打开【库】或【此电脑】，添加【映射网络驱动器】，随便指定一个驱动器名，<br>文件夹填：\\192.168.0.128\WebDev （此处的 WebDev 是上面配置的方括号的名称），<br>勾选【使用其他凭据连接】，【完成】后输入用户名和密码，【确定】。</p><h3 id="【注意】-3"><a href="#【注意】-3" class="headerlink" title="【注意】"></a>【<em>注意</em>】</h3><p>文件夹填：\\192.168.0.128\root</p><p>转载自<a href="https://www.linuxidc.com/Linux/2017-03/141390.htm" target="_blank" rel="noopener">https://www.linuxidc.com/Linux/2017-03/141390.htm</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> samba, win10, centos7 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CentOS 7 最小化安装后无法上网</title>
+      <link href="/2019/02/16/CentOS-7-%E6%9C%80%E5%B0%8F%E5%8C%96%E5%AE%89%E8%A3%85%E5%90%8E%E6%97%A0%E6%B3%95%E4%B8%8A%E7%BD%91/"/>
+      <url>/2019/02/16/CentOS-7-%E6%9C%80%E5%B0%8F%E5%8C%96%E5%AE%89%E8%A3%85%E5%90%8E%E6%97%A0%E6%B3%95%E4%B8%8A%E7%BD%91/</url>
+      
+        <content type="html"><![CDATA[<p>CentOS 7 最小化安装后无法上网的解决方法：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">1.关闭防火墙</span><br><span class="line">systemctl stop firewalld.service</span><br><span class="line"></span><br><span class="line">2.关闭开机启动防火墙</span><br><span class="line">systemctl <span class="built_in">disable</span> firewalld.service</span><br><span class="line"></span><br><span class="line">3.配置网络</span><br><span class="line"><span class="built_in">cd</span> /etc/sysconfig/network-scripts/</span><br><span class="line">vi ifcfg-ens333</span><br><span class="line"></span><br><span class="line">4.修改数据</span><br><span class="line">ONBOOT=yes</span><br><span class="line"></span><br><span class="line">5.重启网络</span><br><span class="line">/etc/init.d/network restart</span><br><span class="line"></span><br><span class="line">6.查看IP</span><br><span class="line">ip addr</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centos7 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>phalcon错误：Can&#39;t obtain model&#39;s source from models list: &#39;Cars&#39;, when preparing</title>
+      <link href="/2019/02/16/phalcon%E9%94%99%E8%AF%AF%EF%BC%9ACan-t-obtain-model-s-source-from-models-list-Cars-when-preparing/"/>
+      <url>/2019/02/16/phalcon%E9%94%99%E8%AF%AF%EF%BC%9ACan-t-obtain-model-s-source-from-models-list-Cars-when-preparing/</url>
+      
+        <content type="html"><![CDATA[<p>php使用phalcon查询数据时出现错误如下：<br>Can’t obtain model’s source from models list: ‘Cars’, when preparing: select * from cars where name = :name:<br>源码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$query</span> = <span class="variable">$this</span>-&gt;modelsManager-&gt;createQuery(<span class="string">"select * from cars where name = :name:"</span>);</span><br><span class="line"><span class="variable">$cars</span> = <span class="variable">$query</span>-&gt;execute([<span class="string">"name"</span> =&gt; <span class="string">"Audi001"</span>]); </span><br><span class="line"><span class="built_in">echo</span> json_encode(<span class="variable">$cars</span>);</span><br></pre></td></tr></table></figure></p><p>解决方法：修改sql语句！<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">方法1：</span><br><span class="line">createQuery(<span class="string">"select * from Cars where name = :name:"</span>);</span><br><span class="line">方法2：</span><br><span class="line">createQuery(<span class="string">"select * from cars where cars.name = :name:"</span>);</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> php </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> phalcon </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>本地能ping通服务器，但使用浏览器无法访问服务器</title>
+      <link href="/2019/02/16/%E6%9C%AC%E5%9C%B0%E8%83%BDping%E9%80%9A%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%8C%E4%BD%86%E4%BD%BF%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <url>/2019/02/16/%E6%9C%AC%E5%9C%B0%E8%83%BDping%E9%80%9A%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%8C%E4%BD%86%E4%BD%BF%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<p>防火墙没有开启80端口！！<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">查看防火墙：systemctl status firewalld.service</span><br><span class="line">开启/关闭/重启防火墙：systemctl start[|stop|restart] firewalld.service</span><br></pre></td></tr></table></figure></p><p>查看端口：firewall-cmd –list-ports<br>开启端口：firewall-cmd –zone=public –add-port=80/tcp –permanent<br>命令含义：<br>–zone #作用域<br>–add-port=80/tcp #添加端口，格式为：端口/通讯协议<br>–permanent #永久生效，没有此参数重启后失效</p><p>重启防火墙<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --reload <span class="comment">#重启firewall</span></span><br><span class="line">systemctl stop firewalld.service <span class="comment">#停止firewall</span></span><br><span class="line">systemctl <span class="built_in">disable</span> firewalld.service <span class="comment">#禁止firewall开机启动</span></span><br><span class="line">firewall-cmd --state <span class="comment">#查看默认防火墙状态（关闭后显示notrunning，开启后显示running）</span></span><br></pre></td></tr></table></figure></p><p>参考<a href="https://www.linuxidc.com/Linux/2016-12/138979.htm" target="_blank" rel="noopener">https://www.linuxidc.com/Linux/2016-12/138979.htm</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux, 浏览器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>npm run dev时出现sass-loader对应的node-sass不匹配的错误</title>
+      <link href="/2019/02/16/npm-run-dev%E6%97%B6%E5%87%BA%E7%8E%B0sass-loader%E5%AF%B9%E5%BA%94%E7%9A%84node-sass%E4%B8%8D%E5%8C%B9%E9%85%8D%E7%9A%84%E9%94%99%E8%AF%AF/"/>
+      <url>/2019/02/16/npm-run-dev%E6%97%B6%E5%87%BA%E7%8E%B0sass-loader%E5%AF%B9%E5%BA%94%E7%9A%84node-sass%E4%B8%8D%E5%8C%B9%E9%85%8D%E7%9A%84%E9%94%99%E8%AF%AF/</url>
+      
+        <content type="html"><![CDATA[<p>npm run dev时会出现sass-loader对应的node-sass不匹配的错误，这是因为<br>sass-loader，node-sass和webpack要成对出现的，所以：（查看npm.js中<a href="https://www.npmjs.com/package/sass-loader" target="_blank" rel="noopener">sass-loader</a>的安装说明）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install sass-loader node-sass webpack --save-dev</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CSS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> node.js, sass </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>在CentOS 7上安装Node.js的4种方法（yum安装和源码安装）</title>
+      <link href="/2019/02/16/%E5%9C%A8CentOS-7%E4%B8%8A%E5%AE%89%E8%A3%85Node-js%E7%9A%844%E7%A7%8D%E6%96%B9%E6%B3%95%EF%BC%88yum%E5%AE%89%E8%A3%85%E5%92%8C%E6%BA%90%E7%A0%81%E5%AE%89%E8%A3%85%EF%BC%89/"/>
+      <url>/2019/02/16/%E5%9C%A8CentOS-7%E4%B8%8A%E5%AE%89%E8%A3%85Node-js%E7%9A%844%E7%A7%8D%E6%96%B9%E6%B3%95%EF%BC%88yum%E5%AE%89%E8%A3%85%E5%92%8C%E6%BA%90%E7%A0%81%E5%AE%89%E8%A3%85%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<p>CentOS 7上的安装方法，其中涵盖了源码安装，已编译版本安装，EPEL（Extra Packages for Enterprise Linux）安装和通过NVM（Node version manager）安装这四种方法，其中，前两种方法基本上都是Linux通用的安装方式，特别是前者，其优点自然是可以安装最新的版本，至于后两者，因为安装简单且管理方便。</p><ul><li>源码安装 （非常推荐）</li><li>使用已编译版本安装</li><li>使用EPEL安装</li><li>使用NVM安装</li></ul><p>一、源码安装</p><p>源码安装，下载是源码包，要进行编译和安装，编译过程，可以进行参数设定。这种方式灵活性比较大，版本/参数可以自己选择。</p><p>1.去官网下载对应的安装包<br><img src="/images/20190216140645.png" alt=""><br>2.下载解压 (我一般下载的是.gz的文件)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">//下载(没有wget,运行yum install wget -y)</span><br><span class="line">wget https://nodejs.org/dist/v9.8.0/node-v9.8.0-linux-x64.tar.xz</span><br><span class="line">//解压</span><br><span class="line">xz -d node-v9.8.0-linux-x64.tar.xz</span><br><span class="line">tar -xvf node-v9.8.0-linux-x64.tar</span><br><span class="line"></span><br><span class="line">//或下载</span><br><span class="line">wget http://nodejs.org/dist/v0.10.30/node-v0.10.30.tar.gz</span><br><span class="line">//解压</span><br><span class="line">tar xzvf node-v*</span><br></pre></td></tr></table></figure><p>3.进入目录编译安装 (有可能要安装相关依赖: sudo yum install gcc gcc-c++)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> node-v*</span><br><span class="line">./configure</span><br><span class="line">make</span><br><span class="line">sudo make install</span><br></pre></td></tr></table></figure></p><p>4.查看版本（测试安装是否成功）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure></p><p>二、使用EPEL安装 (yum安装方式)</p><p>0、了解linux版本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">uname -a  命令查看到我的Linux系统位数是64位（备注：x86_64表示64位系统， i686 i386表示32位系统）</span><br></pre></td></tr></table></figure></p><p>1、下载EPEL (第一步可能没用~,直接看第二步)</p><p>找的方法</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Download the latest epel-release rpm from</span><br><span class="line">http://dl.fedoraproject.org/pub/epel/7/，下载rpm文件</span><br><span class="line">https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/</span><br><span class="line"></span><br><span class="line">sudo rpm -ivh https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm</span><br></pre></td></tr></table></figure><p>2、安装完成，执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">//https://github.com/nodesource/distributions</span><br><span class="line"></span><br><span class="line">//更新node.js各版本yum源</span><br><span class="line">//Node.js v8.x安装命令</span><br><span class="line"><span class="comment">#curl --silent --location https://rpm.nodesource.com/setup_8.x | bash -</span></span><br><span class="line"></span><br><span class="line">//Node.js v7.x安装命令</span><br><span class="line"><span class="comment">#curl --silent --location https://rpm.nodesource.com/setup_7.x | bash -</span></span><br><span class="line"></span><br><span class="line">//Node.js v6.x安装命令</span><br><span class="line"><span class="comment">#curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -</span></span><br><span class="line"></span><br><span class="line">//Node.js v5.x安装命令</span><br><span class="line"><span class="comment">#curl --silent --location https://rpm.nodesource.com/setup_5.x | bash -</span></span><br><span class="line"></span><br><span class="line">//yum安装node.js</span><br><span class="line">yum install -y nodejs</span><br></pre></td></tr></table></figure></p><p>3、检查Node.js和npm版本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure></p><p>我在yum安装的时候运行了第一步EPEL,导致epel源出错或版本不一致,最后删除了/etc/yum.repos.d/的相关node源,yum clean all   –&gt; yum makecache ,后才可以正常安装nodejs </p><p>三、使用已编译版本安装</p><p>1.下载已编译版本</p><p>最新版本可在官网获得：<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">传送门</a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">wget http://nodejs.org/dist/v0.10.30/node-v0.10.30-linux-x64.tar.gz</span><br></pre></td></tr></table></figure></p><p>2.解压<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo tar --strip-components 1 -xzvf node-v* -C /usr/<span class="built_in">local</span></span><br></pre></td></tr></table></figure></p><p>3.老样子，测试安装<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node --version</span><br></pre></td></tr></table></figure></p><p>四、通过NVM安装</p><p>NVM（Node version manager）顾名思义，就是Node.js的版本管理软件，可以轻松的在Node.js各个版本间切换，项目源码GitHub</p><p>1.下载并安装NVM脚本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">curl https://raw.githubusercontent.com/creationix/nvm/v0.13.1/install.sh | bash</span><br><span class="line"></span><br><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br></pre></td></tr></table></figure></p><p>2.列出所需要的版本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm list-remote</span><br></pre></td></tr></table></figure></p><p>返回结果如下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">. . .</span><br><span class="line">v0.10.29</span><br><span class="line">v0.10.30</span><br><span class="line"> v0.11.0</span><br><span class="line"> v0.11.1</span><br><span class="line"> v0.11.2</span><br><span class="line"> v0.11.3</span><br><span class="line"> v0.11.4</span><br><span class="line"> v0.11.5</span><br><span class="line"> v0.11.6</span><br><span class="line"> v0.11.7</span><br><span class="line"> v0.11.8</span><br><span class="line"> v0.11.9</span><br><span class="line">v0.11.10</span><br><span class="line">v0.11.11</span><br><span class="line">v0.11.12</span><br><span class="line">v0.11.13</span><br></pre></td></tr></table></figure></p><p>3.安装相应的版本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install v0.10.30</span><br></pre></td></tr></table></figure></p><p>4.查看已安装的版本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">nvm list</span><br><span class="line">-&gt;  v0.10.30</span><br><span class="line"></span><br><span class="line">system</span><br></pre></td></tr></table></figure></p><p>5.切换版本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm use v0.10.30</span><br></pre></td></tr></table></figure></p><p>6.设置默认版本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="built_in">alias</span> default v0.10.30</span><br></pre></td></tr></table></figure></p><p>淘宝镜像:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">由于官方镜像比较慢，直接执行以下命令，将镜像地址改为淘宝的npm镜像地址</span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></p><p>-转: <a href="https://www.cnblogs.com/fps2tao/p/9956139.html" target="_blank" rel="noopener">https://www.cnblogs.com/fps2tao/p/9956139.html</a><br>-转: <a href="https://blog.csdn.net/xuaa/article/details/52262586" target="_blank" rel="noopener">https://blog.csdn.net/xuaa/article/details/52262586</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> node.js </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centos7, node.js </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
